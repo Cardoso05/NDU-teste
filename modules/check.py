@@ -1,6 +1,6 @@
 
 import logging
-from utils import load_json_data, log_function_entry
+from modules.utils import load_json_data, log_function_entry
 
 
 def check_game_data(modality, filaname='games'):

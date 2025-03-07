@@ -2,9 +2,8 @@ import logging
 import pandas as pd
 from fuzzywuzzy import process
 import re
-import utils
 import pandas as pd
-from utils import log_function_entry
+from modules.utils import log_function_entry
 
 LOCATIONS = {
     'Mackenzie', 'SENAC', 'Medicina USP', 'Palestra', 'USCS', 'Idalina', 'Pinheiros', 

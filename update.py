@@ -1,19 +1,19 @@
-import main
-import utils
-import zero
-import playoff
+from modules.main import execute_update_games, execute_update_data, update_ranking_by_games
+from modules.utils import get_current_dic_modalities_page, print_colored, print_magenta
+from modules.zero import execute_zero_ranking
+from modules.playoff import execute_update_data_playoff
 from colorama import Fore, Style
 
-dic_modalities_page = utils.get_current_dic_modalities_page()
+dic_modalities_page = get_current_dic_modalities_page()
 
 def menu():
     
-    utils.print_colored("O que deseja atualizar?", Fore.YELLOW)
-    utils.print_colored("G - Tudo da fase de grupos")
-    utils.print_colored("J - Apenas Jogos")
-    utils.print_colored("P - Tudo do playoff")
-    utils.print_colored("R - Ranking por modalidade")
-    utils.print_colored("Z - do zero")
+    print_colored("O que deseja atualizar?", Fore.YELLOW)
+    print_colored("G - Tudo da fase de grupos")
+    print_colored("J - Apenas Jogos")
+    print_colored("P - Tudo do playoff")
+    print_colored("R - Ranking por modalidade")
+    print_colored("Z - do zero")
     
     choice = input(Fore.GREEN + "Escolha uma opção: " + Style.RESET_ALL).capitalize()
     
@@ -31,20 +31,20 @@ def menu():
         print("Opção inválida.")
 
 def update_all_group():
-    utils.print_magenta("Atualizando tudo...")
-    main.execute_update_data(dic_modalities_page)
+    print_magenta("Atualizando tudo...")
+    execute_update_data(dic_modalities_page)
 
 def update_data_from_zero():
-    utils.print_magenta("Atualizando do zero...")
-    zero.execute_zero_ranking(dic_modalities_page)
+    print_magenta("Atualizando do zero...")
+    execute_zero_ranking(dic_modalities_page)
 
 def update_ranking_by_modality():
     modality = input(Fore.GREEN + "Informe a modalidade (ex: FM/A): " + Style.RESET_ALL)
-    utils.print_magenta(f"Atualizando ranking para a modalidade {modality}...")
-    main.update_ranking_by_games(modality)
+    print_magenta(f"Atualizando ranking para a modalidade {modality}...")
+    update_ranking_by_games(modality)
 
 def update_playoff():
-    playoff.execute_update_data_playoff(dic_modalities_page)
+    execute_update_data_playoff(dic_modalities_page)
     # modality = input(Fore.GREEN + "Informe a modalidade (ex: FM/A): " + Style.RESET_ALL)
     # if modality:
     #     print_magenta(f"Atualizando playoff para a modalidade {modality}...")
@@ -53,8 +53,8 @@ def update_playoff():
     #   playoff.execute_update_data_playoff(dic_modalities_page)
 
 def update_games():
-    utils.print_magenta("Atualizando apenas jogos...")
-    main.execute_update_games(dic_modalities_page)
+    print_magenta("Atualizando apenas jogos...")
+    execute_update_games(dic_modalities_page)
 
 if __name__ == "__main__":
     menu()
