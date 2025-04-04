@@ -1,6 +1,6 @@
-from check import check_game_data
-from fixes import corrigir_dia, corrigir_horario, corrigir_local
-from utils import create_files, log_function_entry, generate_game_id
+from modules.check import check_game_data
+from modules.fixes import corrigir_dia, corrigir_horario, corrigir_local
+from modules.utils import create_files, log_function_entry, generate_game_id
 import logging
 import tabula
 import pandas as pd

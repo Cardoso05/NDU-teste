@@ -4,9 +4,9 @@ import pandas as pd
 from datetime import datetime
 import logging
 import inspect
-import utils
-import fixes
-import main
+import modules.utils as utils
+import modules.fixes as fixes
+import modules.main as main
 
 data_hora_atual = datetime.now()
 
