@@ -1,4 +1,4 @@
-from modules.main import execute_update_games, execute_update_data, update_ranking_by_games
+from modules.main import update_boletim_file, execute_update_games, execute_update_data, update_ranking_by_games
 from modules.utils import get_current_dic_modalities_page, print_colored, print_magenta
 from modules.zero import execute_zero_ranking
 from modules.playoff import execute_update_data_playoff
@@ -16,6 +16,7 @@ def menu():
     print_colored("Z - do zero")
     
     choice = input(Fore.GREEN + "Escolha uma opção: " + Style.RESET_ALL).capitalize()
+    update_boletim_file()
     
     if choice == "G":
         update_all_group()

@@ -8,6 +8,16 @@ import inspect
 import modules.utils as utils
 import modules.check as check
 import modules.fixes as fixes
+import requests
+from lxml import html
+from datetime import datetime
+
+# Função para obter e analisar o Boletim Oficial
+from lxml import html
+import re
+import shutil
+import os
+
 
 data_hora_atual = datetime.now()
 
@@ -29,14 +39,14 @@ def create_zero_ranking_group(table_groups, filepath):
     header_zero = table_groups.columns[0]
     if 'grupo' not in header_zero.lower():
         logging.warning(f"header_zero inválido: {header_zero}")
-        logging.info(f"Colocando o header atual na última linha")
+        logging.info("Colocando o header atual na última linha")
         # Adicionar os cabeçalhos atuais à última linha de valores de cada coluna
         table_groups.loc[len(table_groups)+1] = table_groups.columns
 
         num_cols = table_groups.shape[1]
         new_headers = [f'Grupo {chr(65 + i)}' for i in range(num_cols)]
 
-        logging.info(f"Atualizando headers")
+        logging.info("Atualizando headers")
         # Atualizar os cabeçalhos do DataFrame
         table_groups.columns = new_headers
 
@@ -382,14 +392,14 @@ def format_tb_group(tb_group):
     header_zero = tb_group.columns[0]
     if 'grupo' not in header_zero.lower():
         logging.warning(f"header_zero inválido: {header_zero}")
-        logging.info(f"Colocando o header atual na última linha")
+        logging.info("Colocando o header atual na última linha")
         # Adicionar os cabeçalhos atuais à última linha de valores de cada coluna
         tb_group.loc[len(tb_group)+1] = tb_group.columns
 
         num_cols = tb_group.shape[1]
         new_headers = [f'Grupo {chr(65 + i)}' for i in range(num_cols)]
 
-        logging.info(f"Atualizando headers")
+        logging.info("Atualizando headers")
         # Atualizar os cabeçalhos do DataFrame
         tb_group.columns = new_headers
     return tb_group
@@ -537,3 +547,100 @@ def execute_update_games(dic_modalities_page):
         group_page_range = details['group_page_range']
         execute_update_games_by_modality(modality, group_page_range)
         logging.info("----------------------------------------")
+
+def find_date_boletim(text_boletim):
+    padrao_data = r'\d{2}/\d{2}/\d{4}'
+    match = re.search(padrao_data, text_boletim)
+    if match:
+        data_inicio = match.group(0)
+        logging.info(f"Data do boletim: {data_inicio}")
+        return data_inicio
+    else:
+        print("Data do boletim não encontrada no texto.")
+
+def find_link_boletim(tree):
+    # Localizar o elemento <a> com o XPath específico e obter o valor do atributo href
+    href_boletim = tree.xpath('/html/body/div[4]/ul[1]/li[1]/a/@href')
+    if href_boletim:
+        link_href = href_boletim[0]
+        logging.info(f"Link do Boletim Oficial: {link_href}")
+        return link_href
+    else:
+        logging.error("Não foi possível obter o valor do atributo href.")
+
+def save_pdf_by_url(site_data, caminho_destino):
+    # Faz a solicitação HTTP para obter o conteúdo do PDF
+    resposta = requests.get(
+            site_data["url"],
+            headers=site_data["headers"],
+            cookies=site_data["cookies"],
+            stream=True)
+
+    # Verifica se a solicitação foi bem-sucedida
+    if resposta.status_code == 200:
+        # Abre o arquivo para escrita em modo binário
+        with open(caminho_destino, 'wb') as arquivo:
+            # Copia o conteúdo da resposta para o arquivo
+            shutil.copyfileobj(resposta.raw, arquivo)
+        logging.info("Boletim baixado com sucesso!")
+    else:
+        logging.error(f"Falha ao baixar o arquivo. Código de status: {resposta.status_code}")
+
+def update_boletim_file():
+    # Script Python para obter e analisar o Boletim Oficial():
+    # Caminho da pasta "files" dentro do diretório do projeto
+    pasta_destino = os.path.join(os.getcwd(), "files")
+
+    # Nome do arquivo a ser salvo
+    nome_arquivo = "Boletim.pdf"
+
+    # Caminho completo para salvar o arquivo
+    caminho_destino = os.path.join(pasta_destino, nome_arquivo)
+
+    try:
+        boletim_ndu_site_data = {
+            "url": "https://www.ndu.net.br/boletim",
+            "headers": {
+                "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                "accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+                "referer": "https://www.google.com/",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+            },
+            "cookies": {
+                "PHPSESSID": "b6ad2300bff8498ec189b940c7f15790",
+                "ci_session": "a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%2298fbfe38a71333c43dc41c0a7580011d%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A33%3A%222801%3Aa4%3A102%3A5%3Aa510%3Abf1a%3Ace17%3A719d%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A111%3A%22Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1743548826%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7D2df0baf46ac3d77906c1b80989b9cbe4"
+            }
+        }
+
+        response = requests.get(
+            boletim_ndu_site_data["url"],
+            headers=boletim_ndu_site_data["headers"],
+            cookies=boletim_ndu_site_data["cookies"]
+        )
+        response.raise_for_status()  # Lança uma exceção se a resposta tiver um código de status de erro
+
+        # Parsear o HTML usando lxml
+        tree = html.fromstring(response.content)
+
+        # Localizar o elemento <a> com o XPath específico
+        link_boletim = tree.xpath('/html/body/div[4]/ul[1]/li[1]/a')
+
+        if link_boletim:
+            link_texto = link_boletim[0].text
+
+            # Verificar se o texto contém "Boletim Oficial"
+            if "Boletim Oficial" in link_texto:
+                logging.info(f"Boletim Oficial encontrado: {link_texto}")
+                find_date_boletim(link_texto)
+                href_boletim = find_link_boletim(tree)
+                boletim_ndu_site_data["url"] = href_boletim
+                save_pdf_by_url(boletim_ndu_site_data, caminho_destino)
+            else:
+                print("O texto do link não contém 'Boletim Oficial'.")
+        else:
+            print("Elemento <a> não encontrado no XPath especificado.")
+
+    except requests.exceptions.RequestException as e:
+        logging.error(f"Erro ao obter o HTML: {e}")
+    except Exception as e:
+        logging.error(f"Ocorreu um erro inesperado: {e}")

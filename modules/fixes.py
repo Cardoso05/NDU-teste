@@ -6,7 +6,7 @@ import pandas as pd
 from modules.utils import log_function_entry
 
 LOCATIONS = {
-    'Mackenzie', 'SENAC', 'Medicina USP', 'Palestra', 'USCS', 'Idalina', 'Pinheiros', 
+    'Mackenzie', 'SENAC', 'Medicina USP', 'Palestra', 'USCS', 'Idalina', 'Pinheiros', 'Poliesportivo'
     'SEMEF', 'GETA', 'EDA', 'CESPRO', 'Mané Garrincha', 'Mauro Pinheiro', 'Baby Barione', 'CERET'
 }
 
@@ -61,6 +61,7 @@ def correct_local(local):
         'Medicin a USP': 'Medicina USP',
         'CDC Ip asure': 'CDC Ipasure',
         'APC EF': 'APCEF',
+        'Poliesp ortivo': 'Poliesportivo'
     }
     return local if local in LOCATIONS else correction_local.get(local, local)
 
