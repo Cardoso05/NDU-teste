@@ -1,0 +1,66 @@
+{
+    "Medicina Santos": {
+        "Direito Mackenzie": "Medicina Santos",
+        "Mauá": "Medicina Santos",
+        "Educação Física UNINOVE": "E",
+        "Comunicação Mackenzie": "E"
+    },
+    "Direito Mackenzie": {
+        "Medicina Santos": "Medicina Santos",
+        "Comunicação Mackenzie": "Direito Mackenzie",
+        "Medicina Einstein": "Medicina Einstein",
+        "Educação Física UNINOVE": "E"
+    },
+    "Medicina Anhembi": {
+        "USCS": "USCS",
+        "Medicina Santo Amaro": "Medicina Anhembi",
+        "ITA": "E"
+    },
+    "USCS": {
+        "Medicina Anhembi": "USCS",
+        "ITA": "USCS",
+        "Tecnologia Mackenzie": "E"
+    },
+    "Medicina Einstein": {
+        "Comunicação Mackenzie": "Medicina Einstein",
+        "Direito Mackenzie": "Medicina Einstein",
+        "Mauá": "E"
+    },
+    "Comunicação Mackenzie": {
+        "Medicina Einstein": "Medicina Einstein",
+        "Direito Mackenzie": "Direito Mackenzie",
+        "Mauá": "E",
+        "Medicina Santos": "E"
+    },
+    "Tecnologia Mackenzie": {
+        "Medicina Santo Amaro": "Tecnologia Mackenzie",
+        "LEP Mackenzie": "E",
+        "USCS": "E"
+    },
+    "Medicina Santo Amaro": {
+        "Tecnologia Mackenzie": "Tecnologia Mackenzie",
+        "Medicina Anhembi": "Medicina Anhembi",
+        "LEP Mackenzie": "LEP Mackenzie"
+    },
+    "ITA": {
+        "LEP Mackenzie": "ITA",
+        "USCS": "USCS",
+        "Medicina Anhembi": "E"
+    },
+    "LEP Mackenzie": {
+        "ITA": "ITA",
+        "Tecnologia Mackenzie": "E",
+        "Medicina Santo Amaro": "LEP Mackenzie"
+    },
+    "Mauá": {
+        "Educação Física UNINOVE": "Educação Física UNINOVE",
+        "Medicina Santos": "Medicina Santos",
+        "Comunicação Mackenzie": "E",
+        "Medicina Einstein": "E"
+    },
+    "Educação Física UNINOVE": {
+        "Mauá": "Educação Física UNINOVE",
+        "Medicina Santos": "E",
+        "Direito Mackenzie": "E"
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "Medicina UNINOVE": {
+        "Medicina USP": "Medicina UNINOVE",
+        "Engenharia São Judas": "Medicina UNINOVE",
+        "Medicina UNICAMP": "E",
+        "Federal do ABC": "E",
+        "FEA USP": "E"
+    },
+    "Medicina USP": {
+        "Medicina UNINOVE": "Medicina UNINOVE",
+        "FEA USP": "Medicina USP",
+        "Federal do ABC": "E",
+        "Engenharia São Judas": "E",
+        "Medicina UNICAMP": "E"
+    },
+    "Medicina Einstein": {
+        "ESPM": "E",
+        "EEFE USP": "EEFE USP",
+        "Direito FMU": "Medicina Einstein",
+        "Arquitetura Mackenzie": "E",
+        "Engenharia Mackenzie": "E"
+    },
+    "ESPM": {
+        "Medicina Einstein": "E",
+        "Arquitetura Mackenzie": "Arquitetura Mackenzie",
+        "Engenharia Mackenzie": "Engenharia Mackenzie",
+        "Direito FMU": "E",
+        "EEFE USP": "E"
+    },
+    "EEFE USP": {
+        "Direito FMU": "EEFE USP",
+        "Medicina Einstein": "EEFE USP",
+        "Arquitetura Mackenzie": "E",
+        "Engenharia Mackenzie": "E",
+        "ESPM": "E"
+    },
+    "Direito FMU": {
+        "EEFE USP": "EEFE USP",
+        "Medicina Einstein": "Medicina Einstein",
+        "Engenharia Mackenzie": "E",
+        "ESPM": "E",
+        "Arquitetura Mackenzie": "E"
+    },
+    "Arquitetura Mackenzie": {
+        "Engenharia Mackenzie": "Arquitetura Mackenzie",
+        "ESPM": "Arquitetura Mackenzie",
+        "EEFE USP": "E",
+        "Medicina Einstein": "E",
+        "Direito FMU": "E"
+    },
+    "Engenharia Mackenzie": {
+        "Arquitetura Mackenzie": "Arquitetura Mackenzie",
+        "ESPM": "Engenharia Mackenzie",
+        "Direito FMU": "E",
+        "EEFE USP": "E",
+        "Medicina Einstein": "E"
+    },
+    "Engenharia São Judas": {
+        "Medicina UNICAMP": "Medicina UNICAMP",
+        "Medicina UNINOVE": "Medicina UNINOVE",
+        "FEA USP": "E",
+        "Medicina USP": "E",
+        "Federal do ABC": "E"
+    },
+    "Medicina UNICAMP": {
+        "Engenharia São Judas": "Medicina UNICAMP",
+        "Federal do ABC": "Federal do ABC",
+        "Medicina UNINOVE": "E",
+        "FEA USP": "E",
+        "Medicina USP": "E"
+    },
+    "Federal do ABC": {
+        "FEA USP": "Federal do ABC",
+        "Medicina UNICAMP": "Federal do ABC",
+        "Medicina USP": "E",
+        "Medicina UNINOVE": "E",
+        "Engenharia São Judas": "E"
+    },
+    "FEA USP": {
+        "Federal do ABC": "Federal do ABC",
+        "Medicina USP": "Medicina USP",
+        "Engenharia São Judas": "E",
+        "Medicina UNICAMP": "E",
+        "Medicina UNINOVE": "E"
+    }
+}

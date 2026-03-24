@@ -5,8 +5,9 @@ from service import MyService
 from exception import *
 import pandas as pd
 import json
+import os
 
-app     = Flask(__name__)
+app = Flask(__name__)
 CORS(app)
 swagger = Swagger(app)
 
@@ -69,7 +70,7 @@ def get_confrontation(modality, series):
       return jsonify(confrontation)
 
     except Exception as e:
-        return jsonify({'error': e.message}), e.errorCode
+        return jsonify({'error': getattr(e, 'message', str(e))}), getattr(e, 'errorCode', 500)
 
 @app.route('/api/games/<modality>/<series>/clashes', methods=['GET'])
 def get_clashes(modality, series):
@@ -116,7 +117,7 @@ def get_clashes(modality, series):
         return jsonify({'error': str(e)}), 400
 
     except Exception as e:
-        return jsonify({'error': e.message}), e.errorCode
+        return jsonify({'error': getattr(e, 'message', str(e))}), getattr(e, 'errorCode', 500)
     
 @app.errorhandler(MissingParameterError)
 def handle_missing_parameter_error(error):
@@ -154,7 +155,7 @@ def get_games(modality, series):
       return json.dumps(df_games, ensure_ascii=False).encode('utf8')
 
     except Exception as e:
-        return json.dumps({'error': e.message}), e.errorCode
+        return jsonify({'error': getattr(e, 'message', str(e))}), getattr(e, 'errorCode', 500)
 
 @app.route('/api/playoff/<modality>/<series>', methods=['GET'])
 def get_playoff(modality, series):
@@ -180,13 +181,15 @@ def get_playoff(modality, series):
       return json.dumps(df_games, ensure_ascii=False).encode('utf8')
 
     except Exception as e:
-        return json.dumps({'error': e.message}), e.errorCode
+        return jsonify({'error': getattr(e, 'message', str(e))}), getattr(e, 'errorCode', 500)
     
 @app.route('/api/nextGames/local/<local>', methods=['GET'])
 def get_games_by_local(local):
-    
-    df_all_games = myAppService.get_next_games_by_local(local)
-    return df_all_games
+    try:
+        all_games = myAppService.get_next_games_by_local(local)
+        return jsonify(all_games)
+    except Exception as e:
+        return jsonify({'error': getattr(e, 'message', str(e))}), getattr(e, 'errorCode', 500)
 
     
 @app.route('/api/modalities', methods=['GET'])
@@ -211,7 +214,7 @@ def get_modalities():
       modalities = myAppService.generate_all_modalities()
       return modalities
     except Exception as e:
-        return jsonify({'error': e.message}), e.errorCode
+        return jsonify({'error': getattr(e, 'message', str(e))}), getattr(e, 'errorCode', 500)
     
 @app.route('/api/localities', methods=['GET'])
 def get_localities():
@@ -225,7 +228,7 @@ def get_localities():
       modalities = myAppService.generate_all_localities()
       return modalities
     except Exception as e:
-        return jsonify({'error': e.message}), e.errorCode
+        return jsonify({'error': getattr(e, 'message', str(e))}), getattr(e, 'errorCode', 500)
 
 @app.route('/api/ranking/<modality>/<series>', methods=['GET'])
 def get_all_rankings(modality, series):
@@ -265,4 +268,6 @@ def get_all_rankings(modality, series):
       return jsonify({'error': e.message}), e.errorCode
       
 if __name__ == '__main__':
-    app.run(debug=True, port=5001)
+    debug = os.getenv('FLASK_DEBUG', 'false').lower() == 'true'
+    port = int(os.getenv('PORT', 5001))
+    app.run(debug=debug, port=port)

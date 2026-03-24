@@ -1,0 +1,74 @@
+[
+    {
+        "Time": "FMU",
+        "Pontos": 0,
+        "Jogos": 0,
+        "V": 0,
+        "E": 0,
+        "D": 0,
+        "Gols_Pro": 0,
+        "Gols_Contra": 0,
+        "Saldo": 0,
+        "ID": "82f98db8-4b30-4968-af11-844e83ec0fde"
+    },
+    {
+        "Time": "FEA São Judas",
+        "Pontos": 0,
+        "Jogos": 0,
+        "V": 0,
+        "E": 0,
+        "D": 0,
+        "Gols_Pro": 0,
+        "Gols_Contra": 0,
+        "Saldo": 0,
+        "ID": "73388035-b673-49db-925c-fc8dbb73bd54"
+    },
+    {
+        "Time": "Engenharia São Judas",
+        "Pontos": 0,
+        "Jogos": 0,
+        "V": 0,
+        "E": 0,
+        "D": 0,
+        "Gols_Pro": 0,
+        "Gols_Contra": 0,
+        "Saldo": 0,
+        "ID": "e766d93e-3de9-4440-acf2-b92d2915a12a"
+    },
+    {
+        "Time": "Medicina Santa Casa",
+        "Pontos": 0,
+        "Jogos": 0,
+        "V": 0,
+        "E": 0,
+        "D": 0,
+        "Gols_Pro": 0,
+        "Gols_Contra": 0,
+        "Saldo": 0,
+        "ID": "bbc148d0-dc30-4b50-926b-b7f87a2b1924"
+    },
+    {
+        "Time": "Medicina ABC",
+        "Pontos": 0,
+        "Jogos": 0,
+        "V": 0,
+        "E": 0,
+        "D": 0,
+        "Gols_Pro": 0,
+        "Gols_Contra": 0,
+        "Saldo": 0,
+        "ID": "e561ede9-02fa-4d3e-9e54-66f5ea2b7602"
+    },
+    {
+        "Time": "ESPM",
+        "Pontos": 0,
+        "Jogos": 0,
+        "V": 0,
+        "E": 0,
+        "D": 0,
+        "Gols_Pro": 0,
+        "Gols_Contra": 0,
+        "Saldo": 0,
+        "ID": "37fe2db6-039f-4edb-8d95-593a6b2dc812"
+    }
+]

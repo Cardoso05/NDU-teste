@@ -1,0 +1,86 @@
+{
+    "FECAP": {
+        "Economia Mackenzie": "FECAP",
+        "EEFE USP": "FECAP",
+        "CAAP UFABC": "E",
+        "INSPER": "E",
+        "Politécnica USP": "E"
+    },
+    "Economia Mackenzie": {
+        "FECAP": "FECAP",
+        "CAAP UFABC": "Economia Mackenzie",
+        "INSPER": "E",
+        "Politécnica USP": "E",
+        "EEFE USP": "E"
+    },
+    "Direito PUC": {
+        "FEA USP": "Direito PUC",
+        "Getúlio Vargas": "Direito PUC",
+        "EACH USP": "E",
+        "Medicina Bragança": "E",
+        "Federal do ABC": "E"
+    },
+    "FEA USP": {
+        "Direito PUC": "Direito PUC",
+        "Federal do ABC": "Federal do ABC",
+        "EACH USP": "FEA USP",
+        "Getúlio Vargas": "E",
+        "Medicina Bragança": "E"
+    },
+    "Getúlio Vargas": {
+        "Medicina Bragança": "Getúlio Vargas",
+        "Direito PUC": "Direito PUC",
+        "FEA USP": "E",
+        "Federal do ABC": "E",
+        "EACH USP": "E"
+    },
+    "Medicina Bragança": {
+        "Getúlio Vargas": "Getúlio Vargas",
+        "Federal do ABC": "Medicina Bragança",
+        "Direito PUC": "E",
+        "FEA USP": "E",
+        "EACH USP": "E"
+    },
+    "Politécnica USP": {
+        "INSPER": "Politécnica USP",
+        "Economia Mackenzie": "E",
+        "FECAP": "E",
+        "CAAP UFABC": "E",
+        "EEFE USP": "E"
+    },
+    "INSPER": {
+        "Politécnica USP": "Politécnica USP",
+        "Economia Mackenzie": "E",
+        "FECAP": "E",
+        "CAAP UFABC": "E",
+        "EEFE USP": "E"
+    },
+    "Federal do ABC": {
+        "FEA USP": "Federal do ABC",
+        "Medicina Bragança": "Medicina Bragança",
+        "Getúlio Vargas": "E",
+        "Direito PUC": "E",
+        "EACH USP": "E"
+    },
+    "CAAP UFABC": {
+        "Economia Mackenzie": "Economia Mackenzie",
+        "FECAP": "E",
+        "EEFE USP": "E",
+        "INSPER": "E",
+        "Politécnica USP": "E"
+    },
+    "EEFE USP": {
+        "FECAP": "FECAP",
+        "CAAP UFABC": "E",
+        "Economia Mackenzie": "E",
+        "INSPER": "E",
+        "Politécnica USP": "E"
+    },
+    "EACH USP": {
+        "FEA USP": "FEA USP",
+        "Direito PUC": "E",
+        "Getúlio Vargas": "E",
+        "Federal do ABC": "E",
+        "Medicina Bragança": "E"
+    }
+}

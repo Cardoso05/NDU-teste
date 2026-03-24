@@ -1,0 +1,86 @@
+{
+    "Comunicação Anhembi": {
+        "UNIP": "Comunicação Anhembi",
+        "FEI": "FEI",
+        "Medicina UNINOVE": "E",
+        "SENAC": "E",
+        "Engenharia UNICAMP": "E"
+    },
+    "UNIP": {
+        "Comunicação Anhembi": "Comunicação Anhembi",
+        "Engenharia UNICAMP": "UNIP",
+        "FEI": "E",
+        "Medicina UNINOVE": "E",
+        "SENAC": "E"
+    },
+    "ESPM": {
+        "Engenharia São Judas": "Engenharia São Judas",
+        "FMU": "ESPM",
+        "FEA São Judas": "E",
+        "Medicina ABC": "E",
+        "Medicina Santa Casa": "E"
+    },
+    "Engenharia São Judas": {
+        "ESPM": "Engenharia São Judas",
+        "Medicina Santa Casa": "Engenharia São Judas",
+        "FEA São Judas": "E",
+        "Medicina ABC": "E",
+        "FMU": "E"
+    },
+    "Medicina ABC": {
+        "Medicina Santa Casa": "Medicina Santa Casa",
+        "FEA São Judas": "Medicina ABC",
+        "FMU": "E",
+        "Engenharia São Judas": "E",
+        "ESPM": "E"
+    },
+    "Medicina Santa Casa": {
+        "Medicina ABC": "Medicina Santa Casa",
+        "Engenharia São Judas": "Engenharia São Judas",
+        "FMU": "E",
+        "FEA São Judas": "E",
+        "ESPM": "E"
+    },
+    "FMU": {
+        "FEA São Judas": "FEA São Judas",
+        "ESPM": "ESPM",
+        "Medicina ABC": "E",
+        "Medicina Santa Casa": "E",
+        "Engenharia São Judas": "E"
+    },
+    "FEA São Judas": {
+        "FMU": "FEA São Judas",
+        "Medicina ABC": "Medicina ABC",
+        "Engenharia São Judas": "E",
+        "ESPM": "E",
+        "Medicina Santa Casa": "E"
+    },
+    "SENAC": {
+        "FEI": "SENAC",
+        "Medicina UNINOVE": "SENAC",
+        "Engenharia UNICAMP": "Engenharia UNICAMP",
+        "Comunicação Anhembi": "E",
+        "UNIP": "E"
+    },
+    "FEI": {
+        "SENAC": "SENAC",
+        "Comunicação Anhembi": "FEI",
+        "UNIP": "E",
+        "Engenharia UNICAMP": "E",
+        "Medicina UNINOVE": "E"
+    },
+    "Medicina UNINOVE": {
+        "SENAC": "SENAC",
+        "Comunicação Anhembi": "E",
+        "UNIP": "E",
+        "FEI": "E",
+        "Engenharia UNICAMP": "E"
+    },
+    "Engenharia UNICAMP": {
+        "UNIP": "UNIP",
+        "SENAC": "Engenharia UNICAMP",
+        "FEI": "E",
+        "Comunicação Anhembi": "E",
+        "Medicina UNINOVE": "E"
+    }
+}

@@ -1,6 +1,6 @@
 import pandas as pd
 from exception import *
-from repository import FirebaseRepository
+from repository import LocalRepository
 
 class MyService:
     _instance = None
@@ -11,8 +11,11 @@ class MyService:
         return cls._instance
     
     def __init__(self):
+        if hasattr(self, '_initialized'):
+            return
         print("################# Iniciando Service #################")
-        self.repository = FirebaseRepository()
+        self.repository = LocalRepository()
+        self._initialized = True
 
     def get_info(self):
         return self.repository.get_info()
@@ -160,7 +163,7 @@ class MyService:
 
         # Filtrar os jogos onde a outra equipe é a visitante
         games_between_home = games_teamOne[games_teamOne['Mandante'].str.contains(teamTwo)]
-        if games_between_home.empty == False:
+        if not games_between_home.empty:
             return games_between_home
         else:
             return games_teamOne[games_teamOne['Visitante'].str.contains(teamTwo)]
@@ -204,8 +207,8 @@ class MyService:
     def concat_df_games(cls, new_game_data, filepath):
         df_games = cls.get_df_games_by_filepath(filepath)
         new_df_games = pd.concat([df_games, pd.DataFrame([new_game_data])], ignore_index=True)
-        new_df_games.reset_index(drop=True)
-        # my_service.create_csv(new_df_games, 'files/simulator', 'games')
+        new_df_games = new_df_games.reset_index(drop=True)
+        return new_df_games
 
     def get_df_games_group(cls, group):
         df_games = cls.get_df_games()

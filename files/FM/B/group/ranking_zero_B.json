@@ -1,0 +1,74 @@
+[
+    {
+        "Time": "Comunicação Anhembi",
+        "Pontos": 0,
+        "Jogos": 0,
+        "V": 0,
+        "E": 0,
+        "D": 0,
+        "Gols_Pro": 0,
+        "Gols_Contra": 0,
+        "Saldo": 0,
+        "ID": "a4faba2f-0875-4909-823a-f3ea97b1ed2c"
+    },
+    {
+        "Time": "SENAC",
+        "Pontos": 0,
+        "Jogos": 0,
+        "V": 0,
+        "E": 0,
+        "D": 0,
+        "Gols_Pro": 0,
+        "Gols_Contra": 0,
+        "Saldo": 0,
+        "ID": "7cc8d0b9-e6a6-41de-9698-505eb54010b8"
+    },
+    {
+        "Time": "UNIP",
+        "Pontos": 0,
+        "Jogos": 0,
+        "V": 0,
+        "E": 0,
+        "D": 0,
+        "Gols_Pro": 0,
+        "Gols_Contra": 0,
+        "Saldo": 0,
+        "ID": "43ee31c7-0554-4759-becd-20fd79d8d91d"
+    },
+    {
+        "Time": "FEI",
+        "Pontos": 0,
+        "Jogos": 0,
+        "V": 0,
+        "E": 0,
+        "D": 0,
+        "Gols_Pro": 0,
+        "Gols_Contra": 0,
+        "Saldo": 0,
+        "ID": "7aa32d1a-40c7-4091-8a84-323dd536dd55"
+    },
+    {
+        "Time": "Engenharia UNICAMP",
+        "Pontos": 0,
+        "Jogos": 0,
+        "V": 0,
+        "E": 0,
+        "D": 0,
+        "Gols_Pro": 0,
+        "Gols_Contra": 0,
+        "Saldo": 0,
+        "ID": "9eeccd34-b351-409c-a30f-a9a03a4fd429"
+    },
+    {
+        "Time": "Medicina UNINOVE",
+        "Pontos": 0,
+        "Jogos": 0,
+        "V": 0,
+        "E": 0,
+        "D": 0,
+        "Gols_Pro": 0,
+        "Gols_Contra": 0,
+        "Saldo": 0,
+        "ID": "9fb40f33-c845-4363-b0e5-ffe3f4b8e2c7"
+    }
+]

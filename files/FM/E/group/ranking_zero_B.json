@@ -1,0 +1,74 @@
+[
+    {
+        "Time": "Medicina Jundiaí",
+        "Pontos": 0,
+        "Jogos": 0,
+        "V": 0,
+        "E": 0,
+        "D": 0,
+        "Gols_Pro": 0,
+        "Gols_Contra": 0,
+        "Saldo": 0,
+        "ID": "c43712cf-ea25-4baf-a49e-d95cdf1dd5f0"
+    },
+    {
+        "Time": "Medicina São Caetano",
+        "Pontos": 0,
+        "Jogos": 0,
+        "V": 0,
+        "E": 0,
+        "D": 0,
+        "Gols_Pro": 0,
+        "Gols_Contra": 0,
+        "Saldo": 0,
+        "ID": "7bcc1ce2-f7a6-407a-89e6-80cdd0ce6193"
+    },
+    {
+        "Time": "FATEC São Paulo",
+        "Pontos": 0,
+        "Jogos": 0,
+        "V": 0,
+        "E": 0,
+        "D": 0,
+        "Gols_Pro": 0,
+        "Gols_Contra": 0,
+        "Saldo": 0,
+        "ID": "a272a007-cc46-4227-8b3a-6bb1d70fc529"
+    },
+    {
+        "Time": "Arquitetura Mackenzie",
+        "Pontos": 0,
+        "Jogos": 0,
+        "V": 0,
+        "E": 0,
+        "D": 0,
+        "Gols_Pro": 0,
+        "Gols_Contra": 0,
+        "Saldo": 0,
+        "ID": "370cfdfb-3c81-4c77-a00f-6fca60e496f0"
+    },
+    {
+        "Time": "RI PUC",
+        "Pontos": 0,
+        "Jogos": 0,
+        "V": 0,
+        "E": 0,
+        "D": 0,
+        "Gols_Pro": 0,
+        "Gols_Contra": 0,
+        "Saldo": 0,
+        "ID": "3379e5a8-85f6-4bb7-b600-b7e347f5619b"
+    },
+    {
+        "Time": "CEM UNICAMP",
+        "Pontos": 0,
+        "Jogos": 0,
+        "V": 0,
+        "E": 0,
+        "D": 0,
+        "Gols_Pro": 0,
+        "Gols_Contra": 0,
+        "Saldo": 0,
+        "ID": "abe48497-fb06-494c-93e7-c557385d8f17"
+    }
+]

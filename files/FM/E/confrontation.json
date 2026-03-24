@@ -1,0 +1,86 @@
+{
+    "Medicina São Caetano": {
+        "Arquitetura Mackenzie": "Arquitetura Mackenzie",
+        "RI PUC": "RI PUC",
+        "FATEC São Paulo": "E",
+        "Medicina Jundiaí": "E",
+        "CEM UNICAMP": "E"
+    },
+    "Arquitetura Mackenzie": {
+        "Medicina São Caetano": "Arquitetura Mackenzie",
+        "FATEC São Paulo": "Arquitetura Mackenzie",
+        "CEM UNICAMP": "E",
+        "RI PUC": "E",
+        "Medicina Jundiaí": "E"
+    },
+    "Direito São Judas": {
+        "ECA USP": "Direito São Judas",
+        "Medicina UNICID": "Direito São Judas",
+        "Strong": "E",
+        "Engenharia Anhembi": "E",
+        "UNIVAP": "E"
+    },
+    "ECA USP": {
+        "Direito São Judas": "Direito São Judas",
+        "UNIVAP": "UNIVAP",
+        "Medicina UNICID": "E",
+        "Strong": "E",
+        "Engenharia Anhembi": "E"
+    },
+    "CEM UNICAMP": {
+        "RI PUC": "CEM UNICAMP",
+        "Medicina Jundiaí": "E",
+        "Arquitetura Mackenzie": "E",
+        "FATEC São Paulo": "E",
+        "Medicina São Caetano": "E"
+    },
+    "RI PUC": {
+        "CEM UNICAMP": "CEM UNICAMP",
+        "Medicina São Caetano": "RI PUC",
+        "Medicina Jundiaí": "E",
+        "Arquitetura Mackenzie": "E",
+        "FATEC São Paulo": "E"
+    },
+    "Medicina Jundiaí": {
+        "FATEC São Paulo": "FATEC São Paulo",
+        "CEM UNICAMP": "E",
+        "RI PUC": "E",
+        "Medicina São Caetano": "E",
+        "Arquitetura Mackenzie": "E"
+    },
+    "FATEC São Paulo": {
+        "Medicina Jundiaí": "FATEC São Paulo",
+        "Arquitetura Mackenzie": "Arquitetura Mackenzie",
+        "Medicina São Caetano": "E",
+        "CEM UNICAMP": "E",
+        "RI PUC": "E"
+    },
+    "Strong": {
+        "UNIVAP": "UNIVAP",
+        "Engenharia Anhembi": "Strong",
+        "Direito São Judas": "E",
+        "ECA USP": "E",
+        "Medicina UNICID": "E"
+    },
+    "UNIVAP": {
+        "Strong": "UNIVAP",
+        "ECA USP": "UNIVAP",
+        "Engenharia Anhembi": "E",
+        "Medicina UNICID": "E",
+        "Direito São Judas": "E"
+    },
+    "Engenharia Anhembi": {
+        "Medicina UNICID": "Medicina UNICID",
+        "Strong": "Strong",
+        "UNIVAP": "E",
+        "Direito São Judas": "E",
+        "ECA USP": "E"
+    },
+    "Medicina UNICID": {
+        "Engenharia Anhembi": "Medicina UNICID",
+        "Direito São Judas": "Direito São Judas",
+        "ECA USP": "E",
+        "UNIVAP": "E",
+        "Strong": "E"
+    }
+}

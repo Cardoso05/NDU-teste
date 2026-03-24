@@ -1,0 +1,134 @@
+{
+    "Medicina MANDIC": {
+        "Medicina Mogi": "Medicina Mogi",
+        "FAAP": "FAAP",
+        "Medicina UNICAMP": "Medicina MANDIC",
+        "Medicina Mauá": "E",
+        "Direito São Bernardo": "E",
+        "Saúde São Judas": "E"
+    },
+    "Medicina Mogi": {
+        "Medicina MANDIC": "Medicina Mogi",
+        "Medicina Mauá": "Medicina Mogi",
+        "Saúde São Judas": "Saúde São Judas",
+        "Direito São Bernardo": "E",
+        "FAAP": "E",
+        "Medicina UNICAMP": "E"
+    },
+    "Direito São Bernardo": {
+        "Medicina UNICAMP": "Direito São Bernardo",
+        "Medicina Mogi": "E",
+        "Saúde São Judas": "E",
+        "Medicina Mauá": "E",
+        "Medicina MANDIC": "E",
+        "FAAP": "E"
+    },
+    "Medicina UNICAMP": {
+        "Direito São Bernardo": "Direito São Bernardo",
+        "Saúde São Judas": "Medicina UNICAMP",
+        "Medicina MANDIC": "Medicina MANDIC",
+        "FAAP": "E",
+        "Medicina Mauá": "E",
+        "Medicina Mogi": "E"
+    },
+    "Medicina UNIMES": {
+        "Direito FMU": "Medicina UNIMES",
+        "Medicina Bela Vista": "Medicina UNIMES",
+        "Comunicação São Judas": "E",
+        "Direito USP": "E",
+        "ESEG": "E"
+    },
+    "Direito FMU": {
+        "Medicina UNIMES": "Medicina UNIMES",
+        "Comunicação São Judas": "Direito FMU",
+        "ESEG": "E",
+        "Direito USP": "E",
+        "Medicina Bela Vista": "E"
+    },
+    "Psicologia da PUC": {
+        "Belas Artes": "Psicologia da PUC",
+        "LINK": "LINK",
+        "Medicina Santa Marcelina": "E",
+        "Odontologia UNINOVE": "E"
+    },
+    "Belas Artes": {
+        "Psicologia da PUC": "Psicologia da PUC",
+        "Odontologia UNINOVE": "Odontologia UNINOVE",
+        "FAU USP": "E",
+        "Medicina Santa Marcelina": "E"
+    },
+    "FAU USP": {
+        "Odontologia UNINOVE": "E",
+        "Belas Artes": "E",
+        "Medicina Santa Marcelina": "E",
+        "LINK": "E"
+    },
+    "Odontologia UNINOVE": {
+        "FAU USP": "E",
+        "Belas Artes": "Odontologia UNINOVE",
+        "LINK": "E",
+        "Psicologia da PUC": "E"
+    },
+    "FAAP": {
+        "Medicina MANDIC": "FAAP",
+        "Medicina Mauá": "FAAP",
+        "Saúde São Judas": "E",
+        "Medicina UNICAMP": "E",
+        "Medicina Mogi": "E",
+        "Direito São Bernardo": "E"
+    },
+    "Comunicação São Judas": {
+        "ESEG": "ESEG",
+        "Direito FMU": "Direito FMU",
+        "Medicina UNIMES": "E",
+        "Medicina Bela Vista": "E",
+        "Direito USP": "E"
+    },
+    "ESEG": {
+        "Comunicação São Judas": "ESEG",
+        "Direito USP": "ESEG",
+        "Direito FMU": "E",
+        "Medicina Bela Vista": "E",
+        "Medicina UNIMES": "E"
+    },
+    "Medicina Bela Vista": {
+        "Direito USP": "Medicina Bela Vista",
+        "Medicina UNIMES": "Medicina UNIMES",
+        "ESEG": "E",
+        "Comunicação São Judas": "E",
+        "Direito FMU": "E"
+    },
+    "Direito USP": {
+        "Medicina Bela Vista": "Medicina Bela Vista",
+        "ESEG": "ESEG",
+        "Direito FMU": "E",
+        "Medicina UNIMES": "E",
+        "Comunicação São Judas": "E"
+    },
+    "Saúde São Judas": {
+        "Medicina UNICAMP": "Medicina UNICAMP",
+        "Medicina Mauá": "Saúde São Judas",
+        "Medicina Mogi": "Saúde São Judas",
+        "FAAP": "E",
+        "Direito São Bernardo": "E",
+        "Medicina MANDIC": "E"
+    },
+    "Medicina Mauá": {
+        "Medicina Mogi": "Medicina Mogi",
+        "Saúde São Judas": "Saúde São Judas",
+        "FAAP": "FAAP",
+        "Medicina MANDIC": "E",
+        "Direito São Bernardo": "E",
+        "Medicina UNICAMP": "E"
+    },
+    "LINK": {
+        "Psicologia da PUC": "LINK",
+        "Odontologia UNINOVE": "E",
+        "FAU USP": "E"
+    },
+    "Medicina Santa Marcelina": {
+        "Psicologia da PUC": "E",
+        "FAU USP": "E",
+        "Belas Artes": "E"
+    }
+}
