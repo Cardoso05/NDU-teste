@@ -9,7 +9,7 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "a4faba2f-0875-4909-823a-f3ea97b1ed2c"
+        "ID": "06339e2f-8f0b-4471-8412-1d1f6b54ccd4"
     },
     {
         "Time": "SENAC",
@@ -21,7 +21,7 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "7cc8d0b9-e6a6-41de-9698-505eb54010b8"
+        "ID": "4b7bd043-8624-47c7-b03d-69046a3947b4"
     },
     {
         "Time": "UNIP",
@@ -33,7 +33,7 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "43ee31c7-0554-4759-becd-20fd79d8d91d"
+        "ID": "1f79277f-a3b7-4068-86fc-16d4cf7537e9"
     },
     {
         "Time": "FEI",
@@ -45,7 +45,7 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "7aa32d1a-40c7-4091-8a84-323dd536dd55"
+        "ID": "df75e1f0-5f0f-41f3-9e2f-03103a3cb948"
     },
     {
         "Time": "Engenharia UNICAMP",
@@ -57,7 +57,7 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "9eeccd34-b351-409c-a30f-a9a03a4fd429"
+        "ID": "0eab8b48-0627-4500-bb05-655bb592c487"
     },
     {
         "Time": "Medicina UNINOVE",
@@ -69,6 +69,6 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "9fb40f33-c845-4363-b0e5-ffe3f4b8e2c7"
+        "ID": "1f3701d3-f4f6-4b68-8ba8-9863d4c767ac"
     }
 ]

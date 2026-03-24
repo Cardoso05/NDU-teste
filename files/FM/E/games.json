@@ -9,7 +9,7 @@
         "Visitante": "Arquitetura Mackenzie",
         "GOLS_MANDANTE": "03",
         "GOLS_VISITANTE": "05",
-        "ID": "0d91c1af-cf3e-4612-accf-b99a63f3007f",
+        "ID": "b755d5e0-9bd9-4b94-b8fc-1684eeb47e68",
         "SIMULADOR": false
     },
     {
@@ -22,7 +22,7 @@
         "Visitante": "ECA USP",
         "GOLS_MANDANTE": "05",
         "GOLS_VISITANTE": "03",
-        "ID": "94d63e05-a734-4d96-b3ef-1566c39ab47d",
+        "ID": "5ecbc2fc-78f5-463c-ad4a-c75cac798681",
         "SIMULADOR": false
     },
     {
@@ -35,7 +35,7 @@
         "Visitante": "RI PUC",
         "GOLS_MANDANTE": "08",
         "GOLS_VISITANTE": "01",
-        "ID": "9f33b8d8-7d7d-4579-ac35-5dce4d323f1f",
+        "ID": "8b7ce907-5579-44b8-81b5-65d3fd1fc927",
         "SIMULADOR": false
     },
     {
@@ -48,7 +48,7 @@
         "Visitante": "FATEC São Paulo",
         "GOLS_MANDANTE": "01",
         "GOLS_VISITANTE": "05",
-        "ID": "0361db66-f7c0-4a35-b7f1-2d6e3188fc50",
+        "ID": "50842c16-be53-47e3-ab97-3526e3a539f6",
         "SIMULADOR": false
     },
     {
@@ -61,7 +61,7 @@
         "Visitante": "UNIVAP",
         "GOLS_MANDANTE": "02",
         "GOLS_VISITANTE": "06",
-        "ID": "8b308d1e-49ab-4ede-9d18-f61f6004b9f3",
+        "ID": "49adc2e7-2776-4820-8e84-9bbf9b13c33d",
         "SIMULADOR": false
     },
     {
@@ -74,7 +74,7 @@
         "Visitante": "Medicina UNICID",
         "GOLS_MANDANTE": "01",
         "GOLS_VISITANTE": "05",
-        "ID": "a2ff6f72-f5d7-4c40-a56d-1846648e306e",
+        "ID": "8f38302b-32d9-4d84-8539-f0bdb4100d54",
         "SIMULADOR": false
     },
     {
@@ -87,7 +87,7 @@
         "Visitante": "Strong",
         "GOLS_MANDANTE": "04",
         "GOLS_VISITANTE": "05",
-        "ID": "b917938f-a7b5-4561-8cd7-e7d85d001223",
+        "ID": "dd00743c-f9db-4ee8-8327-38606d5cb470",
         "SIMULADOR": false
     },
     {
@@ -100,7 +100,7 @@
         "Visitante": "Medicina Jundiaí",
         "GOLS_MANDANTE": "01",
         "GOLS_VISITANTE": "01",
-        "ID": "ddd8b0c6-7c57-4ecf-9d87-c24dbf2180c0",
+        "ID": "86358919-bcc4-4c73-a95b-f36c00277efe",
         "SIMULADOR": false
     },
     {
@@ -113,7 +113,7 @@
         "Visitante": "Medicina São Caetano",
         "GOLS_MANDANTE": "05",
         "GOLS_VISITANTE": "03",
-        "ID": "2c8b3d0f-5323-4471-8ebf-1fbc71132c0e",
+        "ID": "e9e251a7-a8cd-4be4-aec2-76346b4263e4",
         "SIMULADOR": false
     },
     {
@@ -126,7 +126,7 @@
         "Visitante": "UNIVAP",
         "GOLS_MANDANTE": "04",
         "GOLS_VISITANTE": "07",
-        "ID": "a9c40201-8286-4b1c-a80d-d69480f488e7",
+        "ID": "86022d1c-c467-45cb-8ded-5d0fd1934f39",
         "SIMULADOR": false
     },
     {
@@ -139,7 +139,7 @@
         "Visitante": "Medicina UNICID",
         "GOLS_MANDANTE": "06",
         "GOLS_VISITANTE": "02",
-        "ID": "e63e9495-a406-4cd6-abad-8cd5ef1a4701",
+        "ID": "0c7bfc35-9cfe-4dea-adc9-a3016a3ccfab",
         "SIMULADOR": false
     },
     {
@@ -152,7 +152,7 @@
         "Visitante": "FATEC São Paulo",
         "GOLS_MANDANTE": "02",
         "GOLS_VISITANTE": "01",
-        "ID": "6da1ad00-6b1e-4b9e-8a7b-ca3e3e63dbc3",
+        "ID": "41fbe630-7e22-408a-9302-65ca018633d4",
         "SIMULADOR": false
     },
     {
@@ -165,7 +165,7 @@
         "Visitante": "CEM UNICAMP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "f9a1dc04-68a3-46a9-af90-54510a4509b3",
+        "ID": "b86e80d3-c4d2-48d0-9a4c-367d3efd1b3d",
         "SIMULADOR": true
     },
     {
@@ -178,7 +178,7 @@
         "Visitante": "Engenharia Anhembi",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "ae726db9-8386-4dff-8f6b-60da3b36e78b",
+        "ID": "53f29d05-ca96-4894-bfaa-6547e1f5d1a1",
         "SIMULADOR": true
     },
     {
@@ -191,7 +191,7 @@
         "Visitante": "ECA USP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "dfefcc81-94b4-4ae8-aa32-13f346f15483",
+        "ID": "8d9f5fff-e1e2-49ee-ac31-f2b34fe1e96d",
         "SIMULADOR": true
     },
     {
@@ -204,7 +204,7 @@
         "Visitante": "Strong",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "2a7b8049-c7e5-4329-ad6c-a59c7609e91b",
+        "ID": "db543fc4-0dbd-4065-b469-274d2627cb8f",
         "SIMULADOR": true
     },
     {
@@ -217,7 +217,7 @@
         "Visitante": "Medicina São Caetano",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "ee5a48dd-6698-4355-938b-d60d7680d893",
+        "ID": "cc8b32c1-6294-44aa-b6e9-46d8f7296238",
         "SIMULADOR": true
     },
     {
@@ -230,7 +230,7 @@
         "Visitante": "Direito São Judas",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "f01f1ad4-c12d-4be9-b8e1-1d729b9993f9",
+        "ID": "5a951639-9870-48d9-80c6-739238cc1439",
         "SIMULADOR": true
     },
     {
@@ -243,7 +243,7 @@
         "Visitante": "ECA USP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "c5cfc7d2-3ca2-4c65-8308-b8dd3f66ae1d",
+        "ID": "a48ca01c-cd20-437a-97e3-468ed5583f2d",
         "SIMULADOR": true
     },
     {
@@ -256,7 +256,7 @@
         "Visitante": "Medicina UNICID",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "ab8c44c2-e337-43d2-b267-072009d8c9b6",
+        "ID": "e82be3a3-edbc-4c1f-9b0e-a30d3ac463ee",
         "SIMULADOR": true
     },
     {
@@ -269,7 +269,7 @@
         "Visitante": "Direito São Judas",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "7426ebc7-8938-4d54-b698-44d29e129d4b",
+        "ID": "7242fd26-9a65-48d2-82fc-5d1483465b36",
         "SIMULADOR": true
     },
     {
@@ -282,7 +282,7 @@
         "Visitante": "Strong",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "43d514f2-e9d7-4d0e-9137-7756a764d085",
+        "ID": "c1ec475c-b15c-444b-a4b1-fe611db228ae",
         "SIMULADOR": true
     },
     {
@@ -295,7 +295,7 @@
         "Visitante": "Engenharia Anhembi",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "8b6567b1-d078-4c81-8786-639c13139571",
+        "ID": "a69539ba-6399-440e-9b35-96879dd90aa4",
         "SIMULADOR": true
     },
     {
@@ -308,7 +308,7 @@
         "Visitante": "RI PUC",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "d42a1523-ac09-4b72-b987-213c18c7d04b",
+        "ID": "8024ee73-d786-4acf-a122-49e11b1f2d49",
         "SIMULADOR": true
     },
     {
@@ -321,7 +321,7 @@
         "Visitante": "FATEC São Paulo",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "87031015-f0d7-4870-a20a-fde5ce6ac5a0",
+        "ID": "f2c34777-3196-4ace-8f00-ce060e1840df",
         "SIMULADOR": true
     },
     {
@@ -334,7 +334,7 @@
         "Visitante": "Arquitetura Mackenzie",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "26546b67-055a-4f95-9449-355e66d4e20d",
+        "ID": "035e7745-4e7c-4d90-872c-ad006e9693ba",
         "SIMULADOR": true
     },
     {
@@ -347,7 +347,7 @@
         "Visitante": "Medicina São Caetano",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "2beaff95-62d5-4f8b-9744-7d7e2072c7f3",
+        "ID": "ceeac9d7-3540-4d62-963c-b9292a77589b",
         "SIMULADOR": true
     },
     {
@@ -360,7 +360,7 @@
         "Visitante": "Medicina Jundiaí",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "8114d6d1-c532-4be6-9542-8727456eb860",
+        "ID": "ba17564b-a827-4544-af79-f2947e473929",
         "SIMULADOR": true
     },
     {
@@ -373,7 +373,7 @@
         "Visitante": "RI PUC",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "6a1deeea-b85c-43b6-91ff-01e0f8483232",
+        "ID": "f1ca9b43-1ef1-4505-b058-aa7b90afcc7d",
         "SIMULADOR": true
     },
     {
@@ -386,7 +386,7 @@
         "Visitante": "CEM UNICAMP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "066f14d4-4890-48f0-89f0-707e044de027",
+        "ID": "7495c23e-1d26-4d5b-9f6f-844f5bfa7c67",
         "SIMULADOR": true
     }
 ]

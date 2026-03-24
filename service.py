@@ -73,10 +73,23 @@ class MyService:
         
         return dados
 
+    def generate_modality_series_data_custom(self, modalidade, series_list):
+        """Gera dados de modalidade com séries customizadas (ex: ['B', 'C'])."""
+        dados = []
+        for serie in series_list:
+            code = modalidade[0] + 'C/' + serie  # FC/B, FC/C
+            dados.append({
+                "label": f"Futebol de Campo - Série {serie}",
+                "modality": "Futebol de Campo",
+                "series": serie,
+                "value": code
+            })
+        return dados
+
     def generate_all_modalities(self):
         fm = self.generate_modality_series_data('Futsal', 'Masculino', 6)
-        ff = self.generate_modality_series_data('Futsal', 'Feminino', 5)
-        all_modalities = fm + ff
+        fc = self.generate_modality_series_data_custom('Futebol de Campo', ['B', 'C'])
+        all_modalities = fm + fc
         return all_modalities
     
     def generate_all_localities(self):

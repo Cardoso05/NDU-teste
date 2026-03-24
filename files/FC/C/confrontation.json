@@ -1,0 +1,140 @@
+{
+    "Medicina UNIMES": {
+        "FFLCH USP": "E",
+        "Medicina Santos": "Medicina Santos",
+        "Medicina Paulista": "E",
+        "UNIP": "E",
+        "Direito USP": "E",
+        "Mauá": "E"
+    },
+    "FFLCH USP": {
+        "Medicina UNIMES": "E",
+        "Mauá": "Mauá",
+        "Direito USP": "Direito USP",
+        "FEA PUC": "E",
+        "Direito São Judas": "E",
+        "Medicina Santos": "E"
+    },
+    "Medicina Santa Marcelina": {
+        "CAAP UFABC": "CAAP UFABC",
+        "Direito São Judas": "Direito São Judas",
+        "Mauá": "E",
+        "Medicina Santos": "E",
+        "Medicina Paulista": "E",
+        "Direito USP": "E"
+    },
+    "CAAP UFABC": {
+        "Medicina Santa Marcelina": "CAAP UFABC",
+        "FEA PUC": "FEA PUC",
+        "Direito São Judas": "Direito São Judas",
+        "Medicina Santos": "E",
+        "Medicina Paulista": "E",
+        "UNIP": "E"
+    },
+    "Arquitetura Mackenzie": {
+        "Medicina Guarulhos": "E",
+        "Engenharia São Judas": "Engenharia São Judas",
+        "Medicina Einstein": "E"
+    },
+    "Medicina Guarulhos": {
+        "Arquitetura Mackenzie": "E",
+        "Direito FMU": "Medicina Guarulhos",
+        "UNIFESP Osasco": "UNIFESP Osasco"
+    },
+    "EACH USP": {
+        "Medicina UNICID": "EACH USP",
+        "Medicina Einstein": "Medicina Einstein",
+        "Cásper Líbero": "E"
+    },
+    "Medicina UNICID": {
+        "EACH USP": "EACH USP",
+        "Cásper Líbero": "Cásper Líbero",
+        "Comunicação São Judas": "E"
+    },
+    "Cásper Líbero": {
+        "UNIFESP Osasco": "Cásper Líbero",
+        "Medicina UNICID": "Cásper Líbero",
+        "EACH USP": "E"
+    },
+    "UNIFESP Osasco": {
+        "Cásper Líbero": "Cásper Líbero",
+        "Comunicação São Judas": "UNIFESP Osasco",
+        "Medicina Guarulhos": "UNIFESP Osasco"
+    },
+    "Comunicação São Judas": {
+        "Direito FMU": "Comunicação São Judas",
+        "UNIFESP Osasco": "UNIFESP Osasco",
+        "Medicina UNICID": "E"
+    },
+    "Direito FMU": {
+        "Comunicação São Judas": "Comunicação São Judas",
+        "Medicina Guarulhos": "Medicina Guarulhos",
+        "Engenharia São Judas": "E"
+    },
+    "Direito USP": {
+        "UNIP": "UNIP",
+        "Medicina Paulista": "Direito USP",
+        "FFLCH USP": "Direito USP",
+        "Mauá": "E",
+        "Medicina UNIMES": "E",
+        "Medicina Santa Marcelina": "E"
+    },
+    "UNIP": {
+        "Direito USP": "UNIP",
+        "Mauá": "UNIP",
+        "Medicina UNIMES": "E",
+        "FEA PUC": "E",
+        "CAAP UFABC": "E",
+        "Direito São Judas": "E"
+    },
+    "Medicina Einstein": {
+        "Engenharia São Judas": "Engenharia São Judas",
+        "EACH USP": "Medicina Einstein",
+        "Arquitetura Mackenzie": "E"
+    },
+    "Engenharia São Judas": {
+        "Medicina Einstein": "Engenharia São Judas",
+        "Arquitetura Mackenzie": "Engenharia São Judas",
+        "Direito FMU": "E"
+    },
+    "Medicina Paulista": {
+        "FEA PUC": "FEA PUC",
+        "Direito USP": "Direito USP",
+        "Medicina UNIMES": "E",
+        "Direito São Judas": "E",
+        "CAAP UFABC": "E",
+        "Medicina Santa Marcelina": "E"
+    },
+    "FEA PUC": {
+        "Medicina Paulista": "FEA PUC",
+        "CAAP UFABC": "FEA PUC",
+        "Medicina Santos": "E",
+        "FFLCH USP": "E",
+        "UNIP": "E",
+        "Mauá": "E"
+    },
+    "Medicina Santos": {
+        "Direito São Judas": "E",
+        "Medicina UNIMES": "Medicina Santos",
+        "FEA PUC": "E",
+        "CAAP UFABC": "E",
+        "Medicina Santa Marcelina": "E",
+        "FFLCH USP": "E"
+    },
+    "Direito São Judas": {
+        "Medicina Santos": "E",
+        "Medicina Santa Marcelina": "Direito São Judas",
+        "CAAP UFABC": "Direito São Judas",
+        "Medicina Paulista": "E",
+        "FFLCH USP": "E",
+        "UNIP": "E"
+    },
+    "Mauá": {
+        "FFLCH USP": "Mauá",
+        "UNIP": "UNIP",
+        "Medicina Santa Marcelina": "E",
+        "Direito USP": "E",
+        "FEA PUC": "E",
+        "Medicina UNIMES": "E"
+    }
+}

@@ -1,6 +1,6 @@
 [
     {
-        "Time": "Educação Física UNINOVE",
+        "Time": "Cásper Líbero",
         "Pontos": 0,
         "Jogos": 0,
         "V": 0,
@@ -9,10 +9,10 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "d06a3a12-3dc9-43a9-a035-e1d7ba6ac7d4"
+        "ID": "891adf86-4b21-480f-81e8-a13a51836375"
     },
     {
-        "Time": "Comunicação Mackenzie",
+        "Time": "UNIFESP Osasco",
         "Pontos": 0,
         "Jogos": 0,
         "V": 0,
@@ -21,10 +21,10 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "c6b16aa9-4f53-453a-9c61-ad98c7643b6a"
+        "ID": "58aa77e3-00d3-4168-8739-5c8b5e94e2de"
     },
     {
-        "Time": "Direito Mackenzie",
+        "Time": "Medicina São Camilo",
         "Pontos": 0,
         "Jogos": 0,
         "V": 0,
@@ -33,10 +33,10 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "b50a97d0-aa54-480c-908d-8ecd24ff0014"
+        "ID": "24dc2ea3-d4c5-4495-8250-c918a897f800"
     },
     {
-        "Time": "Medicina Santos",
+        "Time": "FFLCH USP",
         "Pontos": 0,
         "Jogos": 0,
         "V": 0,
@@ -45,10 +45,10 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "882d9b24-21af-4a37-937a-055bda3c01ea"
+        "ID": "b677e733-2fe3-41ab-bff3-6ba4a5b0061e"
     },
     {
-        "Time": "Medicina Einstein",
+        "Time": "Medicina São Bernardo",
         "Pontos": 0,
         "Jogos": 0,
         "V": 0,
@@ -57,10 +57,10 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "787c9b7e-3324-481d-af6a-b8fba410ee0e"
+        "ID": "fe41365a-5cb8-43f1-85a9-d23ffc2bf3c5"
     },
     {
-        "Time": "Mauá",
+        "Time": "IBMEC",
         "Pontos": 0,
         "Jogos": 0,
         "V": 0,
@@ -69,6 +69,6 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "efab9f80-75c3-48bb-898b-e1ef725e7468"
+        "ID": "42c6626f-0d80-490b-8346-e627af241e14"
     }
 ]

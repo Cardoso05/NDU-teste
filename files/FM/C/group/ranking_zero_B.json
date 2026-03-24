@@ -1,6 +1,6 @@
 [
     {
-        "Time": "Medicina Anhembi",
+        "Time": "Medicina USP",
         "Pontos": 0,
         "Jogos": 0,
         "V": 0,
@@ -9,10 +9,10 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "f3cc19b0-e210-453d-a6ab-b1e1cbe6c6d8"
+        "ID": "c243fca1-0a83-4113-bcca-4fb702c4b07f"
     },
     {
-        "Time": "Medicina Santo Amaro",
+        "Time": "IME USP",
         "Pontos": 0,
         "Jogos": 0,
         "V": 0,
@@ -21,10 +21,10 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "c6c78ed1-5ea7-462d-a68f-4d6c210c9a76"
+        "ID": "aaa55389-72c8-4735-b7db-2c1f2542367d"
     },
     {
-        "Time": "Tecnologia Mackenzie",
+        "Time": "Medicina Paulista",
         "Pontos": 0,
         "Jogos": 0,
         "V": 0,
@@ -33,10 +33,10 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "89105b6b-e11e-4fa8-b062-2562466e42fc"
+        "ID": "09ef4bd2-0498-41c1-9351-529635da2483"
     },
     {
-        "Time": "ITA",
+        "Time": "FEA PUC",
         "Pontos": 0,
         "Jogos": 0,
         "V": 0,
@@ -45,10 +45,10 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "f446e992-9e07-4ae5-bac8-a6d3a86ef229"
+        "ID": "67e2c4fb-153c-4968-a41b-0cd3de518271"
     },
     {
-        "Time": "USCS",
+        "Time": "Engenharia Mackenzie",
         "Pontos": 0,
         "Jogos": 0,
         "V": 0,
@@ -57,10 +57,10 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "3dff4d6d-2e92-4398-91bf-8ae532aeda6d"
+        "ID": "af607e05-a26b-4e65-aed4-3c727f3c75d4"
     },
     {
-        "Time": "LEP Mackenzie",
+        "Time": "Medicina Taubaté",
         "Pontos": 0,
         "Jogos": 0,
         "V": 0,
@@ -69,6 +69,6 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "12ca6be1-e18c-4b40-9794-6480e61e32b1"
+        "ID": "ce2de6cb-22a3-469d-a3d1-f5bf9814f5a0"
     }
 ]

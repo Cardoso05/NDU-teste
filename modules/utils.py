@@ -186,15 +186,19 @@ def converter_data_br_para_iso(data_str: str) -> str:
     data_obj = datetime.strptime(data_str, '%d de %B de %Y')
     return data_obj.strftime('%Y-%m-%d')
 
+def _normalize_pdf_text(text):
+    """Remove todos os espaços para comparação (PDF quebra palavras com espaços aleatórios)."""
+    return re.sub(r'\s+', '', text).lower()
+
 def buscar_strings_em_pdf(strings_procuradas: List[str], pagina_inicial: int = 1, pagina_final: int = None) -> Dict[str, int]:
     resultados = {}
     ultima_pagina_encontrada = pagina_inicial - 1
     caminho_arquivo  = 'files/Boletim.pdf'
-    
+
     with open(caminho_arquivo, 'rb') as arquivo:
         leitor_pdf = PyPDF2.PdfReader(arquivo)
         numero_paginas = len(leitor_pdf.pages)
-        
+
         # Ajusta o intervalo de páginas
         pagina_inicial = max(1, min(pagina_inicial, numero_paginas))
         if pagina_final is None or pagina_final > numero_paginas:
@@ -206,11 +210,18 @@ def buscar_strings_em_pdf(strings_procuradas: List[str], pagina_inicial: int = 1
 
         for string in strings_procuradas:
             encontrado = False
+            string_norm = _normalize_pdf_text(string)
             for i in range(ultima_pagina_encontrada, pagina_final):
                 texto_pagina = leitor_pdf.pages[i].extract_text()
-                
-                if string and ' '.join(string.split()).lower() in ' '.join(texto_pagina.split()).lower():
-                    resultados[string] = i + 1  # Adiciona o número da página (começando de 1)
+                texto_norm = _normalize_pdf_text(texto_pagina)
+
+                if string_norm and string_norm in texto_norm:
+                    # Pular páginas de classificação e playoffs
+                    primeira_linha = texto_pagina.strip().split('\n')[0].lower()
+                    primeira_linha_norm = re.sub(r'\s+', '', primeira_linha)
+                    if 'classifi' in primeira_linha_norm or 'playoff' in primeira_linha_norm:
+                        continue
+                    resultados[string] = i + 1
                     ultima_pagina_encontrada = i
                     encontrado = True
                     break
@@ -221,25 +232,31 @@ def buscar_strings_em_pdf(strings_procuradas: List[str], pagina_inicial: int = 1
 
     return resultados
 
+def _get_modality_code(desc):
+    """Gera código da modalidade a partir da descrição. Ex: 'Futsal Feminino (Série A)' -> 'FF/A'"""
+    serie = desc.split('(')[1].split(')')[0].split()[-1]
+    if 'Campo' in desc:
+        return f"FC/{serie}"
+    elif 'Feminino' in desc:
+        return f"FF/{serie}"
+    else:
+        return f"FM/{serie}"
+
 def create_obj_modalities(dic_modalities_page):
     return [
     {
-        f"{('FF' if 'Feminino' in k else 'FM')}/{k.split('(')[1].split(')')[0].split()[-1]}": {
+        _get_modality_code(k): {
             'desc': k,
             'group_page_range': f"{v}-{v+1}",
             'playoff_page_range': f"{v+3}"
         }
     }
     for k, v in dic_modalities_page.items()
+    if v is not None
 ]
 
 def generate_dic_modalities_page(update_file=False):
     desc_modalidades = [
-        "Futsal Feminino (Série A)",
-        "Futsal Feminino (Série B)",
-        "Futsal Feminino (Série C)",
-        "Futsal Feminino (Série D)",
-        "Futsal Feminino (Série E)",
         "Futsal Masculino (Série A)",
         "Futsal Masculino (Série B)",
         "Futsal Masculino (Série C)",
@@ -248,8 +265,18 @@ def generate_dic_modalities_page(update_file=False):
         "Futsal Masculino (Série F)",
     ]
 
+    desc_campo = [
+        "Futebol de Campo Masculino (Série B)",
+        "Futebol de Campo Masculino (Série C)",
+    ]
+
     page_range = SimpleNamespace(initial=40, final=115)
     resultados = buscar_strings_em_pdf(desc_modalidades, page_range.initial, page_range.final)
+
+    # Futebol de Campo fica em páginas mais adiante no boletim
+    resultados_campo = buscar_strings_em_pdf(desc_campo, 150, None)
+    resultados.update(resultados_campo)
+
     obj_modalities = create_obj_modalities(resultados)
     if update_file: 
         create_json(obj_modalities, 'files/futsal_series_info.json')

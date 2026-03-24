@@ -1,66 +1,86 @@
 {
-    "Medicina Santos": {
-        "Direito Mackenzie": "Medicina Santos",
-        "Mauá": "Medicina Santos",
-        "Educação Física UNINOVE": "E",
-        "Comunicação Mackenzie": "E"
+    "UNIFESP Osasco": {
+        "IBMEC": "UNIFESP Osasco",
+        "Cásper Líbero": "Cásper Líbero",
+        "Medicina São Bernardo": "E",
+        "Medicina São Camilo": "E",
+        "FFLCH USP": "E"
     },
-    "Direito Mackenzie": {
-        "Medicina Santos": "Medicina Santos",
-        "Comunicação Mackenzie": "Direito Mackenzie",
-        "Medicina Einstein": "Medicina Einstein",
-        "Educação Física UNINOVE": "E"
+    "IBMEC": {
+        "UNIFESP Osasco": "UNIFESP Osasco",
+        "Medicina São Camilo": "Medicina São Camilo",
+        "Cásper Líbero": "IBMEC",
+        "FFLCH USP": "E",
+        "Medicina São Bernardo": "E"
     },
-    "Medicina Anhembi": {
-        "USCS": "USCS",
-        "Medicina Santo Amaro": "Medicina Anhembi",
-        "ITA": "E"
+    "Medicina São Camilo": {
+        "Medicina São Bernardo": "Medicina São Bernardo",
+        "IBMEC": "Medicina São Camilo",
+        "FFLCH USP": "E",
+        "UNIFESP Osasco": "E",
+        "Cásper Líbero": "E"
     },
-    "USCS": {
-        "Medicina Anhembi": "USCS",
-        "ITA": "USCS",
-        "Tecnologia Mackenzie": "E"
+    "Medicina São Bernardo": {
+        "Medicina São Camilo": "Medicina São Bernardo",
+        "FFLCH USP": "Medicina São Bernardo",
+        "UNIFESP Osasco": "E",
+        "Cásper Líbero": "E",
+        "IBMEC": "E"
     },
-    "Medicina Einstein": {
-        "Comunicação Mackenzie": "Medicina Einstein",
-        "Direito Mackenzie": "Medicina Einstein",
-        "Mauá": "E"
+    "Engenharia Mackenzie": {
+        "IME USP": "Engenharia Mackenzie",
+        "Medicina Paulista": "Engenharia Mackenzie",
+        "Medicina Taubaté": "Engenharia Mackenzie",
+        "FEA PUC": "E",
+        "Medicina USP": "E"
     },
-    "Comunicação Mackenzie": {
-        "Medicina Einstein": "Medicina Einstein",
-        "Direito Mackenzie": "Direito Mackenzie",
-        "Mauá": "E",
-        "Medicina Santos": "E"
+    "IME USP": {
+        "Engenharia Mackenzie": "Engenharia Mackenzie",
+        "Medicina Taubaté": "E",
+        "FEA PUC": "FEA PUC",
+        "Medicina USP": "E",
+        "Medicina Paulista": "E"
     },
-    "Tecnologia Mackenzie": {
-        "Medicina Santo Amaro": "Tecnologia Mackenzie",
-        "LEP Mackenzie": "E",
-        "USCS": "E"
+    "FEA PUC": {
+        "Medicina Paulista": "FEA PUC",
+        "Medicina USP": "E",
+        "IME USP": "FEA PUC",
+        "Engenharia Mackenzie": "E",
+        "Medicina Taubaté": "E"
     },
-    "Medicina Santo Amaro": {
-        "Tecnologia Mackenzie": "Tecnologia Mackenzie",
-        "Medicina Anhembi": "Medicina Anhembi",
-        "LEP Mackenzie": "LEP Mackenzie"
+    "Medicina Paulista": {
+        "FEA PUC": "FEA PUC",
+        "Engenharia Mackenzie": "Engenharia Mackenzie",
+        "Medicina USP": "E",
+        "Medicina Taubaté": "E",
+        "IME USP": "E"
     },
-    "ITA": {
-        "LEP Mackenzie": "ITA",
-        "USCS": "USCS",
-        "Medicina Anhembi": "E"
+    "FFLCH USP": {
+        "Cásper Líbero": "E",
+        "Medicina São Bernardo": "Medicina São Bernardo",
+        "Medicina São Camilo": "E",
+        "IBMEC": "E",
+        "UNIFESP Osasco": "E"
     },
-    "LEP Mackenzie": {
-        "ITA": "ITA",
-        "Tecnologia Mackenzie": "E",
-        "Medicina Santo Amaro": "LEP Mackenzie"
+    "Cásper Líbero": {
+        "FFLCH USP": "E",
+        "UNIFESP Osasco": "Cásper Líbero",
+        "IBMEC": "IBMEC",
+        "Medicina São Bernardo": "E",
+        "Medicina São Camilo": "E"
     },
-    "Mauá": {
-        "Educação Física UNINOVE": "Educação Física UNINOVE",
-        "Medicina Santos": "Medicina Santos",
-        "Comunicação Mackenzie": "E",
-        "Medicina Einstein": "E"
+    "Medicina Taubaté": {
+        "Medicina USP": "Medicina USP",
+        "IME USP": "E",
+        "Engenharia Mackenzie": "Engenharia Mackenzie",
+        "Medicina Paulista": "E",
+        "FEA PUC": "E"
     },
-    "Educação Física UNINOVE": {
-        "Mauá": "Educação Física UNINOVE",
-        "Medicina Santos": "E",
-        "Direito Mackenzie": "E"
+    "Medicina USP": {
+        "Medicina Taubaté": "Medicina USP",
+        "FEA PUC": "E",
+        "Medicina Paulista": "E",
+        "IME USP": "E",
+        "Engenharia Mackenzie": "E"
     }
 }

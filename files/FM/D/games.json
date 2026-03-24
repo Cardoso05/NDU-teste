@@ -9,7 +9,7 @@
         "Visitante": "Direito Mackenzie",
         "GOLS_MANDANTE": "04",
         "GOLS_VISITANTE": "00",
-        "ID": "989c49c4-06a8-47a2-af52-62c77ecb8d4f",
+        "ID": "9b61031b-e9c9-4847-96a1-1d64aa04f3c3",
         "SIMULADOR": false
     },
     {
@@ -22,7 +22,7 @@
         "Visitante": "USCS",
         "GOLS_MANDANTE": "04",
         "GOLS_VISITANTE": "05",
-        "ID": "caf23ca6-162a-4d56-af5f-7efd7c7ee94c",
+        "ID": "3541dd35-7fda-4474-aa13-92cedaef2f73",
         "SIMULADOR": false
     },
     {
@@ -35,7 +35,7 @@
         "Visitante": "Comunicação Mackenzie",
         "GOLS_MANDANTE": "08",
         "GOLS_VISITANTE": "00",
-        "ID": "51a550b0-239d-449f-92ba-75b89a0dde23",
+        "ID": "d219deea-00be-412f-adde-169ffbc5e910",
         "SIMULADOR": false
     },
     {
@@ -48,7 +48,7 @@
         "Visitante": "Medicina Santo Amaro",
         "GOLS_MANDANTE": "03",
         "GOLS_VISITANTE": "01",
-        "ID": "002a16d3-00e2-4a33-acc9-63bbcdd3ba37",
+        "ID": "13d1add4-b51a-40f1-84e1-a0a7023e6d53",
         "SIMULADOR": false
     },
     {
@@ -61,7 +61,7 @@
         "Visitante": "LEP Mackenzie",
         "GOLS_MANDANTE": "04",
         "GOLS_VISITANTE": "03",
-        "ID": "dbe559e4-f815-4732-8a09-c53b823009c8",
+        "ID": "608d3d1d-b173-4108-81d7-c897260074d8",
         "SIMULADOR": false
     },
     {
@@ -74,7 +74,7 @@
         "Visitante": "Educação Física UNINOVE",
         "GOLS_MANDANTE": "03",
         "GOLS_VISITANTE": "07",
-        "ID": "3e7c6cba-4632-4ec2-b9db-0bc2146937b7",
+        "ID": "2bc84d77-d84b-411e-bf82-9cfeac98f64d",
         "SIMULADOR": false
     },
     {
@@ -87,7 +87,7 @@
         "Visitante": "Comunicação Mackenzie",
         "GOLS_MANDANTE": "05",
         "GOLS_VISITANTE": "03",
-        "ID": "5195a906-b444-44e9-b8e0-537127f03721",
+        "ID": "d82db6eb-43b5-405f-b409-5aadd673244d",
         "SIMULADOR": false
     },
     {
@@ -100,7 +100,7 @@
         "Visitante": "ITA",
         "GOLS_MANDANTE": "05",
         "GOLS_VISITANTE": "01",
-        "ID": "7b3d8a30-3a71-4430-8e1c-d4a7d37d8ccd",
+        "ID": "0ac7af7f-3b06-4ff5-baaf-226383d8f821",
         "SIMULADOR": false
     },
     {
@@ -113,7 +113,7 @@
         "Visitante": "Tecnologia Mackenzie",
         "GOLS_MANDANTE": "02",
         "GOLS_VISITANTE": "02",
-        "ID": "fa54cb5f-de02-47bc-8104-35aff0b77ca3",
+        "ID": "342bf8fd-0d9c-4780-b5c7-26c01ae24fa5",
         "SIMULADOR": false
     },
     {
@@ -126,7 +126,7 @@
         "Visitante": "Medicina Santo Amaro",
         "GOLS_MANDANTE": "04",
         "GOLS_VISITANTE": "03",
-        "ID": "cfdcc104-879d-4c00-b549-b56ce1bb66d9",
+        "ID": "fbecb02b-7804-489b-a32d-5e76702bd9e4",
         "SIMULADOR": false
     },
     {
@@ -139,7 +139,7 @@
         "Visitante": "LEP Mackenzie",
         "GOLS_MANDANTE": "05",
         "GOLS_VISITANTE": "10",
-        "ID": "6481090d-9a0b-4592-b6f8-b724565b7357",
+        "ID": "2236b425-2261-4c8d-9485-cea5215da7df",
         "SIMULADOR": false
     },
     {
@@ -152,7 +152,7 @@
         "Visitante": "Medicina Einstein",
         "GOLS_MANDANTE": "00",
         "GOLS_VISITANTE": "02",
-        "ID": "daa522c2-7c2d-4d4c-bce0-329ae9c7dd0f",
+        "ID": "0faaf019-9f72-4221-9d97-8b499ed0b71a",
         "SIMULADOR": false
     },
     {
@@ -165,7 +165,7 @@
         "Visitante": "Mauá",
         "GOLS_MANDANTE": "03",
         "GOLS_VISITANTE": "01",
-        "ID": "e4cd8b40-3706-44c0-9e12-a0afca5e2e94",
+        "ID": "9591e30b-f4b7-47a1-ad66-a01e08ce0692",
         "SIMULADOR": false
     },
     {
@@ -178,7 +178,7 @@
         "Visitante": "USCS",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "c16e0488-6ae4-44f3-a087-35d2ffc286a6",
+        "ID": "8df73787-d89d-4c3a-95a5-2e5ead47d5ca",
         "SIMULADOR": true
     },
     {
@@ -191,7 +191,7 @@
         "Visitante": "Medicina Anhembi",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "0eea09f8-b866-4770-bf32-fed6fee091b9",
+        "ID": "eddced2d-cbcc-4995-8dad-7a8656a328a4",
         "SIMULADOR": true
     },
     {
@@ -204,7 +204,7 @@
         "Visitante": "Educação Física UNINOVE",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "92578cad-006a-4dc7-abdf-432261dc1747",
+        "ID": "499014b2-2297-4228-b9bf-42e5653d4a86",
         "SIMULADOR": true
     },
     {
@@ -217,7 +217,7 @@
         "Visitante": "Mauá",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "ab8e0d7b-9966-490d-a7d3-3904688279d7",
+        "ID": "4d2fb9a3-327b-43a1-af6a-37ad39f16a98",
         "SIMULADOR": true
     },
     {
@@ -230,7 +230,7 @@
         "Visitante": "Medicina Santos",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "9fe6dd48-04cd-4237-a862-2705eb5bc526",
+        "ID": "b6d97513-cce8-44e5-92b2-8dd68f2d2f0e",
         "SIMULADOR": true
     },
     {
@@ -243,7 +243,7 @@
         "Visitante": "Direito Mackenzie",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "02539029-2ee0-4871-86af-dfd9b19c630b",
+        "ID": "73961710-3ea7-488d-9f8b-118ec9195126",
         "SIMULADOR": true
     },
     {
@@ -256,7 +256,7 @@
         "Visitante": "Medicina Einstein",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "f57e9291-51de-4c94-b097-895a755cc621",
+        "ID": "e3c6bbbb-b664-4055-b5fd-73b4b76308f4",
         "SIMULADOR": true
     },
     {
@@ -269,7 +269,7 @@
         "Visitante": "Comunicação Mackenzie",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "374e80d4-c7d0-4b74-bd57-6092d9c39639",
+        "ID": "c5f88720-bf0e-4090-806b-b7712c29f542",
         "SIMULADOR": true
     },
     {
@@ -282,7 +282,7 @@
         "Visitante": "Direito Mackenzie",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "6dfb3eb1-2d22-49f1-b7aa-59339e713505",
+        "ID": "0a313faa-4b0d-45e8-b52b-a87dcf76513e",
         "SIMULADOR": true
     },
     {
@@ -295,7 +295,7 @@
         "Visitante": "Medicina Santos",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "3edd3f8b-9d16-45fa-971b-9f472d781aed",
+        "ID": "710eb0de-c766-41d4-9bf3-3ce25f1007ce",
         "SIMULADOR": true
     },
     {
@@ -308,7 +308,7 @@
         "Visitante": "Medicina Anhembi",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "55f2b5e0-d460-4950-9ddb-b49d957c3883",
+        "ID": "fc1deea9-edf0-490a-93c9-c8093754ba0f",
         "SIMULADOR": true
     },
     {
@@ -321,7 +321,7 @@
         "Visitante": "Medicina Santo Amaro",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "20a2052a-2ef0-4006-91ff-2baddfe46e2f",
+        "ID": "a188806f-2ac1-4ade-8a6d-fbd17b5efdf0",
         "SIMULADOR": true
     },
     {
@@ -334,7 +334,7 @@
         "Visitante": "Tecnologia Mackenzie",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "065de5a7-3036-47fe-b2f7-93173459981b",
+        "ID": "76a74bbf-5b2a-4bdd-8fde-16dfd1dfa980",
         "SIMULADOR": true
     },
     {
@@ -347,7 +347,7 @@
         "Visitante": "Tecnologia Mackenzie",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "1e198fc4-a728-4b96-a2a6-227b501be9cf",
+        "ID": "9e5454b0-f373-4f5c-a467-d988c89047be",
         "SIMULADOR": true
     },
     {
@@ -360,7 +360,7 @@
         "Visitante": "ITA",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "9cb22807-4519-4605-a343-c234d59237b9",
+        "ID": "6fac5c0c-68a9-4830-b9e2-bf244e58013c",
         "SIMULADOR": true
     },
     {
@@ -373,7 +373,7 @@
         "Visitante": "USCS",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "14e3f850-0df1-43e6-9ca4-95542d17201a",
+        "ID": "18719624-0802-408a-9f11-ed695c7c106c",
         "SIMULADOR": true
     },
     {
@@ -386,7 +386,7 @@
         "Visitante": "Medicina Einstein",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "b7cb7634-16e0-4d11-8893-fb3202d5ab86",
+        "ID": "0733b1b5-1e3e-4a91-a1aa-2658f65e2473",
         "SIMULADOR": true
     }
 ]

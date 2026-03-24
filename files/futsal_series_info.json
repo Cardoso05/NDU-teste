@@ -1,40 +1,5 @@
 [
     {
-        "FF/A": {
-            "desc": "Futsal Feminino (Série A)",
-            "group_page_range": "41-42",
-            "playoff_page_range": "44"
-        }
-    },
-    {
-        "FF/B": {
-            "desc": "Futsal Feminino (Série B)",
-            "group_page_range": "45-46",
-            "playoff_page_range": "48"
-        }
-    },
-    {
-        "FF/C": {
-            "desc": "Futsal Feminino (Série C)",
-            "group_page_range": "51-52",
-            "playoff_page_range": "54"
-        }
-    },
-    {
-        "FF/D": {
-            "desc": "Futsal Feminino (Série D)",
-            "group_page_range": "55-56",
-            "playoff_page_range": "58"
-        }
-    },
-    {
-        "FF/E": {
-            "desc": "Futsal Feminino (Série E)",
-            "group_page_range": "57-58",
-            "playoff_page_range": "60"
-        }
-    },
-    {
         "FM/A": {
             "desc": "Futsal Masculino (Série A)",
             "group_page_range": "61-62",
@@ -51,8 +16,8 @@
     {
         "FM/C": {
             "desc": "Futsal Masculino (Série C)",
-            "group_page_range": "72-73",
-            "playoff_page_range": "75"
+            "group_page_range": "69-70",
+            "playoff_page_range": "72"
         }
     },
     {
@@ -74,6 +39,20 @@
             "desc": "Futsal Masculino (Série F)",
             "group_page_range": "81-82",
             "playoff_page_range": "84"
+        }
+    },
+    {
+        "FC/B": {
+            "desc": "Futebol de Campo Masculino (Série B)",
+            "group_page_range": "158-159",
+            "playoff_page_range": "161"
+        }
+    },
+    {
+        "FC/C": {
+            "desc": "Futebol de Campo Masculino (Série C)",
+            "group_page_range": "163-164",
+            "playoff_page_range": "166"
         }
     }
 ]

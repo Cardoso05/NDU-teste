@@ -126,6 +126,10 @@ def generate_table_games(tables):
     df_games.rename(columns={'HORÁRIO': 'HORARIO'}, inplace=True)
     df_games.rename(columns={'EQUIPE Mandante': 'Mandante'}, inplace=True)
     df_games.rename(columns={'EQUIPE Visitante': 'Visitante'}, inplace=True)
+    # Normalizar: coluna SÉRIE -> GRUPO (Futebol de Campo usa SÉRIE, Grupo Único vira "A")
+    if 'SÉRIE' in df_games.columns and 'GRUPO' not in df_games.columns:
+        df_games.rename(columns={'SÉRIE': 'GRUPO'}, inplace=True)
+        df_games['GRUPO'] = 'A'  # Grupo Único
     df_games['SIMULADOR'] = df_games.apply(check_simulador, axis=1)
     return df_games
 

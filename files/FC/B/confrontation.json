@@ -1,0 +1,110 @@
+{
+    "Medicina Santo Amaro": {
+        "Comunicação Mackenzie": "Medicina Santo Amaro",
+        "Medicina Anhembi": "Medicina Anhembi",
+        "Federal do ABC": "E",
+        "Medicina USP": "E",
+        "EEFE USP": "E",
+        "FEA São Judas": "E",
+        "Medicina UNINOVE": "E"
+    },
+    "Comunicação Mackenzie": {
+        "Medicina Santo Amaro": "Medicina Santo Amaro",
+        "EEFE USP": "E",
+        "Engenharia Mackenzie": "Comunicação Mackenzie",
+        "Direito Mackenzie": "E",
+        "ESPM": "E",
+        "FEA USP": "E",
+        "Medicina Anhembi": "E"
+    },
+    "FEA USP": {
+        "Engenharia Mackenzie": "Engenharia Mackenzie",
+        "FEA São Judas": "FEA USP",
+        "ESPM": "E",
+        "Medicina Anhembi": "E",
+        "Comunicação Mackenzie": "E",
+        "Federal do ABC": "E",
+        "Direito Mackenzie": "E"
+    },
+    "Engenharia Mackenzie": {
+        "FEA USP": "Engenharia Mackenzie",
+        "ESPM": "ESPM",
+        "Comunicação Mackenzie": "Comunicação Mackenzie",
+        "Medicina Anhembi": "E",
+        "Federal do ABC": "E",
+        "Medicina UNINOVE": "E",
+        "Medicina USP": "E"
+    },
+    "ESPM": {
+        "FEA São Judas": "FEA São Judas",
+        "Engenharia Mackenzie": "ESPM",
+        "Medicina Anhembi": "Medicina Anhembi",
+        "FEA USP": "E",
+        "Comunicação Mackenzie": "E",
+        "Federal do ABC": "E",
+        "Medicina UNINOVE": "E"
+    },
+    "FEA São Judas": {
+        "ESPM": "FEA São Judas",
+        "Medicina UNINOVE": "E",
+        "FEA USP": "FEA USP",
+        "Medicina USP": "E",
+        "EEFE USP": "E",
+        "Medicina Anhembi": "E",
+        "Medicina Santo Amaro": "E"
+    },
+    "Medicina Anhembi": {
+        "Direito Mackenzie": "Medicina Anhembi",
+        "Medicina Santo Amaro": "Medicina Anhembi",
+        "ESPM": "Medicina Anhembi",
+        "Engenharia Mackenzie": "E",
+        "FEA USP": "E",
+        "FEA São Judas": "E",
+        "Comunicação Mackenzie": "E"
+    },
+    "Direito Mackenzie": {
+        "Medicina Anhembi": "Medicina Anhembi",
+        "Federal do ABC": "E",
+        "Comunicação Mackenzie": "E",
+        "Medicina UNINOVE": "E",
+        "Medicina USP": "E",
+        "EEFE USP": "E",
+        "FEA USP": "E"
+    },
+    "Medicina USP": {
+        "Medicina UNINOVE": "E",
+        "Federal do ABC": "Medicina USP",
+        "EEFE USP": "E",
+        "FEA São Judas": "E",
+        "Medicina Santo Amaro": "E",
+        "Direito Mackenzie": "E",
+        "Engenharia Mackenzie": "E"
+    },
+    "Medicina UNINOVE": {
+        "Medicina USP": "E",
+        "FEA São Judas": "E",
+        "EEFE USP": "E",
+        "Direito Mackenzie": "E",
+        "Engenharia Mackenzie": "E",
+        "ESPM": "E",
+        "Medicina Santo Amaro": "E"
+    },
+    "EEFE USP": {
+        "Comunicação Mackenzie": "E",
+        "Federal do ABC": "EEFE USP",
+        "Medicina USP": "E",
+        "Medicina UNINOVE": "E",
+        "FEA São Judas": "E",
+        "Medicina Santo Amaro": "E",
+        "Direito Mackenzie": "E"
+    },
+    "Federal do ABC": {
+        "Medicina USP": "Medicina USP",
+        "EEFE USP": "EEFE USP",
+        "Direito Mackenzie": "E",
+        "Medicina Santo Amaro": "E",
+        "Engenharia Mackenzie": "E",
+        "ESPM": "E",
+        "FEA USP": "E"
+    }
+}

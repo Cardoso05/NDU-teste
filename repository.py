@@ -80,8 +80,8 @@ class LocalRepository:
     def get_next_games_by_local(self, local):
         all_games = []
         modalities = [
-            ("FF", ["A", "B", "C", "D", "E"]),
             ("FM", ["A", "B", "C", "D", "E", "F"]),
+            ("FC", ["B", "C"]),
         ]
         for mod, series_list in modalities:
             for s in series_list:

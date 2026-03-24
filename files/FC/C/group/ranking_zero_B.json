@@ -1,6 +1,6 @@
 [
     {
-        "Time": "Politécnica USP",
+        "Time": "Medicina Guarulhos",
         "Pontos": 0,
         "Jogos": 0,
         "V": 0,
@@ -9,10 +9,10 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "3ead4b2a-1519-4f71-9f78-573885eb8624"
+        "ID": "4e200a2b-823e-4970-9b42-8f9000c689e2"
     },
     {
-        "Time": "FFLCH USP",
+        "Time": "Direito FMU",
         "Pontos": 0,
         "Jogos": 0,
         "V": 0,
@@ -21,10 +21,10 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "52c20934-3128-41e5-ae7a-045d1a892e86"
+        "ID": "e3ad2f2c-a743-4e08-a678-ba13c4d63d2e"
     },
     {
-        "Time": "Medicina ABC",
+        "Time": "Comunicação São Judas",
         "Pontos": 0,
         "Jogos": 0,
         "V": 0,
@@ -33,10 +33,10 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "14cd3bfd-c1d2-4742-a437-6a04a761058a"
+        "ID": "37b35d14-1cab-4fd4-ba37-44db9013727f"
     },
     {
-        "Time": "Medicina Paulista",
+        "Time": "Arquitetura Mackenzie",
         "Pontos": 0,
         "Jogos": 0,
         "V": 0,
@@ -45,10 +45,10 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "5bbd600d-5d88-4def-bf13-96f8dfbf9bfd"
+        "ID": "9b4e412a-c089-4680-ad6b-067aa370cd31"
     },
     {
-        "Time": "LEP Mackenzie",
+        "Time": "Cásper Líbero",
         "Pontos": 0,
         "Jogos": 0,
         "V": 0,
@@ -57,18 +57,6 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "76f2e4e4-ec1f-414a-a52b-09d61d241313"
-    },
-    {
-        "Time": "Comunicação Metodista",
-        "Pontos": 0,
-        "Jogos": 0,
-        "V": 0,
-        "E": 0,
-        "D": 0,
-        "Gols_Pro": 0,
-        "Gols_Contra": 0,
-        "Saldo": 0,
-        "ID": "7e1c8793-8f8e-4ed0-875b-15c6f6d23dbe"
+        "ID": "f2420c43-1b3b-4a33-bd08-064f05f59aed"
     }
 ]

@@ -9,7 +9,7 @@
         "Visitante": "Medicina Mogi",
         "GOLS_MANDANTE": "02",
         "GOLS_VISITANTE": "04",
-        "ID": "66671c8a-0dd4-42af-8d53-b34b6e541601",
+        "ID": "aadf8751-34fb-4daf-a6d4-74c01141ec04",
         "SIMULADOR": false
     },
     {
@@ -22,7 +22,7 @@
         "Visitante": "Medicina UNICAMP",
         "GOLS_MANDANTE": "03",
         "GOLS_VISITANTE": "00",
-        "ID": "279cea5f-74df-4a88-b162-c80a76ebd235",
+        "ID": "3763d6a7-3c2b-4b0d-9cf2-f9b06ff44e12",
         "SIMULADOR": false
     },
     {
@@ -35,7 +35,7 @@
         "Visitante": "Direito FMU",
         "GOLS_MANDANTE": "03",
         "GOLS_VISITANTE": "00",
-        "ID": "aa85bcd1-61a7-4cc1-a12b-8aaca10e798c",
+        "ID": "3f5a6392-6eef-4105-b35e-79b264f5220c",
         "SIMULADOR": false
     },
     {
@@ -48,7 +48,7 @@
         "Visitante": "Belas Artes",
         "GOLS_MANDANTE": "05",
         "GOLS_VISITANTE": "03",
-        "ID": "a4222b40-7f66-4246-b431-b0ad4c6b6659",
+        "ID": "b88a6f57-8f80-47c9-b379-1af64fbff7a3",
         "SIMULADOR": false
     },
     {
@@ -61,7 +61,7 @@
         "Visitante": "Odontologia UNINOVE",
         "GOLS_MANDANTE": "03",
         "GOLS_VISITANTE": "03",
-        "ID": "cd465a4c-0ec1-405f-9908-28c1d063fbcd",
+        "ID": "902cbb04-3bf1-49eb-bf88-368f9ffe131b",
         "SIMULADOR": false
     },
     {
@@ -74,7 +74,7 @@
         "Visitante": "Medicina MANDIC",
         "GOLS_MANDANTE": "09",
         "GOLS_VISITANTE": "01",
-        "ID": "c5e4e9c7-a4ac-4596-96c2-5045915716f3",
+        "ID": "b8cb57c9-da48-4389-b938-5f4154c92b59",
         "SIMULADOR": false
     },
     {
@@ -87,7 +87,7 @@
         "Visitante": "ESEG",
         "GOLS_MANDANTE": "02",
         "GOLS_VISITANTE": "05",
-        "ID": "7dedbb8b-da86-4af9-9040-d4c0a9d67f7e",
+        "ID": "02928b68-b698-4f83-ba75-5c82b3749573",
         "SIMULADOR": false
     },
     {
@@ -100,7 +100,7 @@
         "Visitante": "Direito USP",
         "GOLS_MANDANTE": "03",
         "GOLS_VISITANTE": "02",
-        "ID": "27670dd2-a59e-4e62-929e-3cb8aafadfcc",
+        "ID": "c3f953bb-07b3-43e5-abfd-56a2ccd0e41f",
         "SIMULADOR": false
     },
     {
@@ -113,7 +113,7 @@
         "Visitante": "Medicina UNICAMP",
         "GOLS_MANDANTE": "01",
         "GOLS_VISITANTE": "05",
-        "ID": "9326b95e-276c-4138-9fe2-6ae3fe1e0944",
+        "ID": "11c45730-73de-4013-bee8-e497d8a1faca",
         "SIMULADOR": false
     },
     {
@@ -126,7 +126,7 @@
         "Visitante": "Medicina Mogi",
         "GOLS_MANDANTE": "02",
         "GOLS_VISITANTE": "05",
-        "ID": "1fc4fdea-1f0e-426e-812f-eeb656cfbdf1",
+        "ID": "0901c9ac-88f3-4786-804e-d8b0c5054b12",
         "SIMULADOR": false
     },
     {
@@ -139,7 +139,7 @@
         "Visitante": "Saúde São Judas",
         "GOLS_MANDANTE": "01",
         "GOLS_VISITANTE": "04",
-        "ID": "01e592c0-ab42-4c8a-9a9a-7b6b64294426",
+        "ID": "2e094b8b-38fc-4e74-a764-ead2ced933c4",
         "SIMULADOR": false
     },
     {
@@ -152,7 +152,7 @@
         "Visitante": "Medicina MANDIC",
         "GOLS_MANDANTE": "02",
         "GOLS_VISITANTE": "05",
-        "ID": "48426360-c6f8-4808-9885-4fe6528babbd",
+        "ID": "e7c2f45b-a7b3-4a7a-a60e-5f99a3e47784",
         "SIMULADOR": false
     },
     {
@@ -165,7 +165,7 @@
         "Visitante": "Medicina UNIMES",
         "GOLS_MANDANTE": "02",
         "GOLS_VISITANTE": "04",
-        "ID": "0d19d7b1-5c0f-4ef2-9818-3d1b1dc80b71",
+        "ID": "0fbbbee5-6a3c-4efa-a20a-e74a21984638",
         "SIMULADOR": false
     },
     {
@@ -178,7 +178,7 @@
         "Visitante": "Medicina Mauá",
         "GOLS_MANDANTE": "08",
         "GOLS_VISITANTE": "02",
-        "ID": "ad5e2f79-e192-45d4-a775-9a6335132471",
+        "ID": "5915b5a6-548a-44e4-a919-44f16449ff10",
         "SIMULADOR": false
     },
     {
@@ -191,7 +191,7 @@
         "Visitante": "Medicina Mogi",
         "GOLS_MANDANTE": "02",
         "GOLS_VISITANTE": "00",
-        "ID": "76a6bd6f-8cbb-48f0-84df-76d446c5665b",
+        "ID": "56f0cb1d-2167-4287-9362-2fa2d33c3f1e",
         "SIMULADOR": false
     },
     {
@@ -204,7 +204,7 @@
         "Visitante": "Comunicação São Judas",
         "GOLS_MANDANTE": "06",
         "GOLS_VISITANTE": "04",
-        "ID": "b9188a66-191f-404e-9bca-366a2fa05e17",
+        "ID": "5e52416a-932e-4a87-bd4a-bf4251199306",
         "SIMULADOR": false
     },
     {
@@ -217,7 +217,7 @@
         "Visitante": "Odontologia UNINOVE",
         "GOLS_MANDANTE": "02",
         "GOLS_VISITANTE": "04",
-        "ID": "150dcb61-e7a8-43fe-95a2-b692e1a14536",
+        "ID": "b8c885e4-099f-46f7-802d-1bdec216a179",
         "SIMULADOR": false
     },
     {
@@ -230,7 +230,7 @@
         "Visitante": "LINK",
         "GOLS_MANDANTE": "01",
         "GOLS_VISITANTE": "06",
-        "ID": "c03b92f0-48ea-440b-8e21-1e9e9bc2ba82",
+        "ID": "53b1d7e5-b54c-42d0-a9d6-9da3b5477466",
         "SIMULADOR": false
     },
     {
@@ -243,7 +243,7 @@
         "Visitante": "ESEG",
         "GOLS_MANDANTE": "01",
         "GOLS_VISITANTE": "03",
-        "ID": "be6bff72-8e9b-4a5f-9b42-8c01c6a27665",
+        "ID": "b4033871-ede1-447a-9ab7-374b77646989",
         "SIMULADOR": false
     },
     {
@@ -256,7 +256,7 @@
         "Visitante": "Saúde São Judas",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "33ad745f-0032-46f4-a16e-a5711a3724bf",
+        "ID": "d5eb1e86-4445-4286-a03d-933a0a38a5ee",
         "SIMULADOR": true
     },
     {
@@ -269,7 +269,7 @@
         "Visitante": "Direito São Bernardo",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "24c4e4cb-9827-4c7a-8eca-a310c3ab7d94",
+        "ID": "e7c4713f-bc94-47c7-bc16-04eb182cfc2a",
         "SIMULADOR": true
     },
     {
@@ -282,7 +282,7 @@
         "Visitante": "ESEG",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "d94094fa-f435-42e4-9601-0ac545c7db08",
+        "ID": "5ceaad7a-6577-4678-b035-f2cb6dda215c",
         "SIMULADOR": true
     },
     {
@@ -295,7 +295,7 @@
         "Visitante": "Medicina MANDIC",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "55f496ca-8f0b-4410-b440-ad442294ed78",
+        "ID": "4cd34334-ba8b-4da3-bb35-3c9ca1e19b7b",
         "SIMULADOR": true
     },
     {
@@ -308,7 +308,7 @@
         "Visitante": "Psicologia da PUC",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "3a662ba5-adcd-47ec-9775-eaf2e85fbbeb",
+        "ID": "3f259c26-b91e-4caf-b311-f267b1383b08",
         "SIMULADOR": true
     },
     {
@@ -321,7 +321,7 @@
         "Visitante": "Odontologia UNINOVE",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "4e3a1c36-0126-433a-9d06-149c85329c3b",
+        "ID": "c2eb481a-62cc-4744-879a-9d1b6187bbe1",
         "SIMULADOR": true
     },
     {
@@ -334,7 +334,7 @@
         "Visitante": "Comunicação São Judas",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "2c2e1433-eedf-4aeb-a8ab-fd419b7134b1",
+        "ID": "f0d42eb8-5f60-4417-b005-a5a740d9fe02",
         "SIMULADOR": true
     },
     {
@@ -347,7 +347,7 @@
         "Visitante": "FAU USP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "a82046a5-cef1-4699-8f85-6b6f182f1024",
+        "ID": "ff538840-6180-4243-9700-ed758fd5e516",
         "SIMULADOR": true
     },
     {
@@ -360,7 +360,7 @@
         "Visitante": "Direito São Bernardo",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "3d8e9695-5509-4697-a37c-7a9930107fb1",
+        "ID": "124c7e6f-218f-42dc-aaa1-46aeb6025f6b",
         "SIMULADOR": true
     },
     {
@@ -373,7 +373,7 @@
         "Visitante": "FAAP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "5e500d57-37e6-4f4c-a7a4-e48d0a1d8ed2",
+        "ID": "7e75596d-96ae-430c-8f0d-cd500d55034f",
         "SIMULADOR": true
     },
     {
@@ -386,7 +386,7 @@
         "Visitante": "Medicina Mauá",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "71404531-72f8-402b-a131-7801fbffc988",
+        "ID": "2174cb50-dfe2-40a2-ac5b-9ac4b7651f03",
         "SIMULADOR": true
     },
     {
@@ -399,7 +399,7 @@
         "Visitante": "FAAP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "9fa868cb-11a5-4019-a446-87349e993a56",
+        "ID": "bedbfcff-42c1-4324-94a6-af547efe54f9",
         "SIMULADOR": true
     },
     {
@@ -412,7 +412,7 @@
         "Visitante": "Medicina Mauá",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "e19f6640-dddb-4ee1-8440-9f7b1629c22a",
+        "ID": "06dc940d-4cad-4156-8944-aa4d37b314e9",
         "SIMULADOR": true
     },
     {
@@ -425,7 +425,7 @@
         "Visitante": "Direito São Bernardo",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "2e86ed28-c27f-431e-8c29-bf6d87c7ad18",
+        "ID": "8d8c972f-deae-47b8-8be4-9d81098ba9ea",
         "SIMULADOR": true
     },
     {
@@ -438,7 +438,7 @@
         "Visitante": "Medicina UNICAMP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "fb7fd312-2f4e-416f-b49c-236b6173f3ec",
+        "ID": "57bf1401-1693-4c74-9c86-0a73b3c19f2e",
         "SIMULADOR": true
     },
     {
@@ -451,7 +451,7 @@
         "Visitante": "Saúde São Judas",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "5885bfd6-2a41-4bb2-9109-1ef31ab44e55",
+        "ID": "01ee60bd-c358-4ae7-884d-5ae26fa232b0",
         "SIMULADOR": true
     },
     {
@@ -464,7 +464,7 @@
         "Visitante": "FAAP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "255e4a2f-2a11-4ac9-9efa-c764dd8116cc",
+        "ID": "a6ab2bc0-e246-4af2-aa10-c94d40fb943b",
         "SIMULADOR": true
     },
     {
@@ -477,7 +477,7 @@
         "Visitante": "Direito USP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "103c5287-656f-4ddf-a835-3538a1046ab3",
+        "ID": "2f1c577f-1728-41e3-97fc-db150e1d0fd3",
         "SIMULADOR": true
     },
     {
@@ -490,7 +490,7 @@
         "Visitante": "Medicina Bela Vista",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "7ac78aa6-0e99-4817-84d8-a35915c766fd",
+        "ID": "bb14d665-8f6b-4812-be8f-47ad0df0bb04",
         "SIMULADOR": true
     },
     {
@@ -503,7 +503,7 @@
         "Visitante": "Direito USP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "d8db9e19-fc58-4e96-9446-330cdda73760",
+        "ID": "6c68c59f-c372-4815-ba7c-1e707be1310d",
         "SIMULADOR": true
     },
     {
@@ -516,7 +516,7 @@
         "Visitante": "Medicina Bela Vista",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "e33a9862-3fbd-4978-87bd-d3da05b6bcac",
+        "ID": "accd1fba-4391-458b-ba77-c98df7241b60",
         "SIMULADOR": true
     },
     {
@@ -529,7 +529,7 @@
         "Visitante": "Direito FMU",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "439318db-259a-4189-a2f7-73f6ac3f1c20",
+        "ID": "ff140709-c27e-4520-b851-aeccc95bc77a",
         "SIMULADOR": true
     },
     {
@@ -542,7 +542,7 @@
         "Visitante": "Comunicação São Judas",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "8701597d-f160-46ce-a149-db843225a98b",
+        "ID": "e7fbcfca-efaf-4a62-902f-f7129ac834cd",
         "SIMULADOR": true
     },
     {
@@ -555,7 +555,7 @@
         "Visitante": "Medicina UNIMES",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "bbef8004-5f16-4619-9568-af7501bb4972",
+        "ID": "6d9cae49-aeec-4a7c-8845-661ee302a6e3",
         "SIMULADOR": true
     },
     {
@@ -568,7 +568,7 @@
         "Visitante": "Medicina Santa Marcelina",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "194e794b-9fc9-4fcd-a11f-4cc3f69dac77",
+        "ID": "836d0f57-6c74-4222-8758-54df364fca70",
         "SIMULADOR": true
     },
     {
@@ -581,7 +581,7 @@
         "Visitante": "Belas Artes",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "c982e126-bf35-4de0-bad0-c83850737718",
+        "ID": "b3e6ccf6-4549-4cec-9cea-8402a8c7295c",
         "SIMULADOR": true
     },
     {
@@ -594,7 +594,7 @@
         "Visitante": "FAU USP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "8dc0df75-0655-44d6-bdd6-a2109e5e5852",
+        "ID": "16e14361-0bf1-4a70-8307-98a808e9daea",
         "SIMULADOR": true
     },
     {
@@ -607,7 +607,7 @@
         "Visitante": "Psicologia da PUC",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "3eb33203-3527-4185-86c9-6243087d55d1",
+        "ID": "f6901848-2a10-42df-a838-7efa7bef783f",
         "SIMULADOR": true
     }
 ]

@@ -9,7 +9,7 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "c612b19c-e0ea-4ff0-9a03-d0fe632de741"
+        "ID": "3c3bb339-a308-47aa-9fdf-0335b428ff51"
     },
     {
         "Time": "ESEG",
@@ -21,7 +21,7 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "aadf1576-7a33-4880-b423-863dca095ab7"
+        "ID": "0910bf64-afe2-464c-83e2-cb5f5863661a"
     },
     {
         "Time": "Direito USP",
@@ -33,7 +33,7 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "a528ad95-ee09-4b5d-9634-4b54f1a21f45"
+        "ID": "51d1db41-89ef-4d0f-991b-6848fa92812b"
     },
     {
         "Time": "Medicina Bela Vista",
@@ -45,7 +45,7 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "3044f287-b99f-4bb1-a122-6ed9ffb4b0bf"
+        "ID": "c91fed67-0261-46dd-bd92-971ef70f3a26"
     },
     {
         "Time": "Comunicação São Judas",
@@ -57,7 +57,7 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "3a576c96-90b0-43e9-b9da-f7c71106e490"
+        "ID": "b66a524d-b845-4139-b6b0-dadb8c5a42e0"
     },
     {
         "Time": "Medicina UNIMES",
@@ -69,18 +69,6 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "58a73cfa-5653-41e6-a627-84b9ac7a37fd"
-    },
-    {
-        "Time": "- - -",
-        "Pontos": 0,
-        "Jogos": 0,
-        "V": 0,
-        "E": 0,
-        "D": 0,
-        "Gols_Pro": 0,
-        "Gols_Contra": 0,
-        "Saldo": 0,
-        "ID": "05506320-d2de-444c-bb5e-1e224dcdaa87"
+        "ID": "b660a518-724e-4547-8dff-414abc414dbc"
     }
 ]
