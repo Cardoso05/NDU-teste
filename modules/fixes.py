@@ -2,11 +2,10 @@ import logging
 import pandas as pd
 from fuzzywuzzy import process
 import re
-import pandas as pd
 from modules.utils import log_function_entry
 
 LOCATIONS = {
-    'Mackenzie', 'SENAC', 'Medicina USP', 'Palestra', 'USCS', 'Idalina', 'Pinheiros', 'Poliesportivo'
+    'Mackenzie', 'SENAC', 'Medicina USP', 'Palestra', 'USCS', 'Idalina', 'Pinheiros', 'Poliesportivo',
     'SEMEF', 'GETA', 'EDA', 'CESPRO', 'Mané Garrincha', 'Mauro Pinheiro', 'Baby Barione', 'CERET'
 }
 
@@ -64,13 +63,6 @@ def correct_local(local):
         'Poliesp ortivo': 'Poliesportivo'
     }
     return local if local in LOCATIONS else correction_local.get(local, local)
-
-def verificar_listagem(set_output, set_default):
-    logging.info("Iniciando verificação de listagem")
-    elementos_ausentes = set(set_output) - set(set_default)
-    if len(elementos_ausentes) > 0:
-        logging.critical("Os seguintes elementos não estão listados:")
-        logging.critical(elementos_ausentes)
 
 def corrigir_local(df_games):
     logging.info("Iniciando correção de locais")

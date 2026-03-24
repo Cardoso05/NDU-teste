@@ -11,4 +11,7 @@ class FileNotFoundErrorException(Exception):
         super().__init__(self.message)
 
 class MissingParameterError(Exception):
-    pass
+    def __init__(self, message="Parâmetro obrigatório não informado."):
+        self.message = message
+        self.errorCode = 400
+        super().__init__(self.message)

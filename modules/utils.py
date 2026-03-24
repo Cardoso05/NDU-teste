@@ -18,6 +18,9 @@ data_hora_atual = datetime.now()
 
 dia_atual = data_hora_atual.date()
 
+# Criar pasta de logs se não existir
+os.makedirs('logs', exist_ok=True)
+
 logging.basicConfig(filename='logs/debug_ndu_' + data_hora_atual.strftime("%Y-%m-%d_%H-%M-%S") + '.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def log_function_entry():
@@ -41,9 +44,11 @@ def load_json_data(filepath):
 
 def create_json(data, json_file):
     log_function_entry()
-    with open(json_file, 'w', encoding='utf-8') as file:  # Certifique-se de especificar a codificação correta
-        json.dump(data, file, indent=4, ensure_ascii=False)  # Especifica ensure_ascii=False para lidar com acentos
-    
+    # Criar diretório se não existir
+    os.makedirs(os.path.dirname(json_file), exist_ok=True)
+    with open(json_file, 'w', encoding='utf-8') as file:
+        json.dump(data, file, indent=4, ensure_ascii=False)
+
     logging.info('criado JSON em ' + json_file)
 
 def csv_to_json(csv_file, json_file):
@@ -155,13 +160,30 @@ def extrair_data_boletim(caminho_arquivo: str, numero_pagina: int) -> str:
             return "Não foi encontrado 'São Paulo, ' na página especificada."
 
 def converter_data_br_para_iso(data_str: str) -> str:
-    # Configura o locale para português do Brasil
-    locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')
+    # Tenta configurar o locale para português do Brasil
+    try:
+        locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')
+    except locale.Error:
+        try:
+            locale.setlocale(locale.LC_TIME, 'pt_BR.utf8')
+        except locale.Error:
+            logging.warning("Locale pt_BR não disponível. Usando fallback manual.")
+            # Fallback: substituir meses manualmente
+            meses = {
+                'janeiro': '01', 'fevereiro': '02', 'março': '03', 'abril': '04',
+                'maio': '05', 'junho': '06', 'julho': '07', 'agosto': '08',
+                'setembro': '09', 'outubro': '10', 'novembro': '11', 'dezembro': '12'
+            }
+            for mes_nome, mes_num in meses.items():
+                if mes_nome in data_str.lower():
+                    import re
+                    match = re.match(r'(\d{1,2}) de \w+ de (\d{4})', data_str)
+                    if match:
+                        dia, ano = match.groups()
+                        return f"{ano}-{mes_num}-{int(dia):02d}"
+            return data_str
 
-    # Converte a string para um objeto datetime
     data_obj = datetime.strptime(data_str, '%d de %B de %Y')
-
-    # Formata a data no formato ISO (YYYY-MM-DD)
     return data_obj.strftime('%Y-%m-%d')
 
 def buscar_strings_em_pdf(strings_procuradas: List[str], pagina_inicial: int = 1, pagina_final: int = None) -> Dict[str, int]:

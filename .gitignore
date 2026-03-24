@@ -1,7 +1,10 @@
 __pycache__/
 .env
 env/
-files/
 test.ipynb
 backup/
 logs/
+
+# Ignorar PDFs pesados, mas manter os JSONs gerados
+files/Boletim.pdf
+files/*.pdf

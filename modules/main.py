@@ -23,8 +23,9 @@ data_hora_atual = datetime.now()
 
 dia_atual = data_hora_atual.date()
 
-# Configuração básica de logging
-# logging.basicConfig(filename='logs/log_ndu_' + data_hora_atual.strftime("%Y-%m-%d_%H-%M-%S") + '.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# Criar pasta de logs se não existir
+os.makedirs('logs', exist_ok=True)
+
 logging.basicConfig(filename='logs/debug_ndu_' + data_hora_atual.strftime("%Y-%m-%d_%H-%M-%S") + '.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def log_function_entry():
@@ -147,7 +148,7 @@ def listar_confrontos(df_games, teamOne, teamTwo):
 
     # Filtrar os jogos onde a outra equipe é a visitante
     games_between_home = games_teamOne[games_teamOne['EQUIPE Mandante'].str.contains(teamTwo)]
-    if games_between_home.empty == False:
+    if not games_between_home.empty:
       return games_between_home
     else:
       return games_teamOne[games_teamOne['EQUIPE Visitante'].str.contains(teamTwo)]
@@ -408,7 +409,7 @@ def format_tb_group(tb_group):
 def format_DIA_HORARIO(games_data):
     log_function_entry()
     if 'DIA HORÁRIO' in games_data.columns:
-        current_year = datetime.datetime.now().year
+        current_year = datetime.now().year
 
         def process_date_time(value):
             if value.strip() != "":

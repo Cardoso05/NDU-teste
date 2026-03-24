@@ -12,8 +12,9 @@ data_hora_atual = datetime.now()
 
 dia_atual = data_hora_atual.date()
 
-# Configuração básica de logging
-# logging.basicConfig(filename='logs/log_ndu_' + data_hora_atual.strftime("%Y-%m-%d_%H-%M-%S") + '.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+import os
+
+os.makedirs('logs', exist_ok=True)
 logging.basicConfig(filename='logs/debug_ndu_' + data_hora_atual.strftime("%Y-%m-%d_%H-%M-%S") + '.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def log_function_entry():
@@ -67,25 +68,59 @@ def create_zero_ranking_group(table_groups, filepath):
         
     return dataframes
 
+def _is_group_table(table):
+    """Verifica se a tabela é de grupos (tem coluna 'Grupo A' ou similar)."""
+    return any('Grupo' in str(c) for c in table.columns)
+
+def _is_games_table(table):
+    """Verifica se a tabela é de jogos (tem coluna 'EQUIPE Mandante')."""
+    return 'EQUIPE Mandante' in table.columns
+
+def _find_games_tables(tables):
+    """Filtra apenas tabelas que são de jogos."""
+    return [t for t in tables if _is_games_table(t)]
+
+def _find_group_table(tables):
+    """Encontra a tabela de grupos."""
+    for t in tables:
+        if _is_group_table(t):
+            return t
+    return None
+
 def execute_zero_ranking(dic_modalities_page):
     log_function_entry()
     for item in dic_modalities_page:
-        # Cada item é um dicionário com uma única chave-valor
         modality, details = next(iter(item.items()))
         group_page_range = details['group_page_range']
         logging.info(f"modalidade: {modality} | group_page: {group_page_range}")
         tables = tabula.read_pdf("files/Boletim.pdf", pages=group_page_range)
-        tb_group = fixes.format_tb_group(tables)
+
+        # Encontrar tabela de grupos e tabelas de jogos
+        tb_group = _find_group_table(tables)
+        tb_games_list = _find_games_tables(tables)
+
+        if tb_group is None or len(tb_games_list) == 0:
+            print(f'[AVISO] {modality} (páginas {group_page_range}): sem tabela de grupos ou jogos na fase de grupos. '
+                  f'Provavelmente já está na fase de playoffs. Pulando...')
+            logging.warning(f"{modality}: sem dados de fase de grupos. Provavelmente em playoffs.")
+            continue
+
+        tb_group = fixes.format_tb_group([tb_group])
         print('Grupo página:', group_page_range)
         print(tb_group)
-        tb_games = [tables[1], tables[2]]
+
+        # Filtrar apenas tabelas de jogos que tenham coluna GRUPO (não FASE)
+        tb_games_with_grupo = [t for t in tb_games_list if 'GRUPO' in t.columns]
+        if len(tb_games_with_grupo) == 0:
+            print(f'[AVISO] {modality}: jogos encontrados mas sem coluna GRUPO (pode ser playoff). Pulando...')
+            continue
 
         filepath = 'files/' + modality
         filepath_group = filepath + '/group'
         create_zero_ranking_group(tb_group, filepath_group)
         rankings_zero_group = main.get_rankings_zero_group(modality)
         teams = main.get_all_teams_by_rankings(rankings_zero_group)
-        df_games = main.generate_table_games(tb_games)
+        df_games = main.generate_table_games(tb_games_with_grupo)
         df_games = fixes.corrigir_local(df_games)
         df_games = fixes.corrigir_times(teams, df_games)
         utils.create_files(df_games, filepath)
