@@ -17,6 +17,10 @@ class LocalRepository:
     def __init__(self, base_dir='files'):
         self.base_dir = base_dir
 
+    def _mod_path(self, modality, series):
+        """Monta o caminho: files/FM/A/ ou files/FF/B/"""
+        return os.path.join(self.base_dir, modality, series)
+
     def get_info(self):
         return _load_json(os.path.join(self.base_dir, 'info.json')) or {}
 
@@ -24,15 +28,11 @@ class LocalRepository:
         return _load_json(os.path.join(self.base_dir, 'flags.json')) or {}
 
     def get_confrontation(self, modality, series):
-        path = os.path.join(self.base_dir, f'{modality}/{series}', 'confrontation.json')
-        # Tenta também sem subpasta de series
-        if not os.path.exists(path):
-            path = os.path.join(self.base_dir, f'{modality}', 'confrontation.json')
+        path = os.path.join(self._mod_path(modality, series), 'confrontation.json')
         return _load_json(path) or {}
 
     def get_ranking(self, modality, series):
-        # Tenta carregar rankings de cada grupo
-        group_dir = os.path.join(self.base_dir, f'{modality}', 'group')
+        group_dir = os.path.join(self._mod_path(modality, series), 'group')
         if not os.path.exists(group_dir):
             return {}
 
@@ -43,14 +43,23 @@ class LocalRepository:
                 data = _load_json(os.path.join(group_dir, filename))
                 if data:
                     rankings[group_letter] = data
+
+        # Se não tem rankings calculados, usar os zeros
+        if not rankings:
+            for filename in sorted(os.listdir(group_dir)):
+                if filename.startswith('ranking_zero_') and filename.endswith('.json'):
+                    group_letter = filename.replace('ranking_zero_', '').replace('.json', '')
+                    data = _load_json(os.path.join(group_dir, filename))
+                    if data:
+                        rankings[group_letter] = data
         return rankings
 
     def get_games(self, modality, series):
-        path = os.path.join(self.base_dir, f'{modality}', 'games.json')
+        path = os.path.join(self._mod_path(modality, series), 'games.json')
         return _load_json(path) or []
 
     def get_playoff_games(self, modality, series):
-        path = os.path.join(self.base_dir, f'{modality}', 'playoff.json')
+        path = os.path.join(self._mod_path(modality, series), 'playoff.json')
         return _load_json(path) or []
 
     def get_games_by_team(self, modality, series, team=None):
@@ -60,22 +69,28 @@ class LocalRepository:
         return games
 
     def get_ranking_by_group(self, modality, series, group):
-        path = os.path.join(self.base_dir, f'{modality}', 'group', f'ranking_{group}.json')
-        return _load_json(path) or []
+        path = os.path.join(self._mod_path(modality, series), 'group', f'ranking_{group}.json')
+        data = _load_json(path)
+        if data:
+            return data
+        # Fallback para ranking zero
+        path_zero = os.path.join(self._mod_path(modality, series), 'group', f'ranking_zero_{group}.json')
+        return _load_json(path_zero) or []
 
     def get_next_games_by_local(self, local):
         all_games = []
         modalities = [
-            "FF/A", "FF/B", "FF/C", "FF/D", "FF/E",
-            "FM/A", "FM/B", "FM/C", "FM/D", "FM/E", "FM/F"
+            ("FF", ["A", "B", "C", "D", "E"]),
+            ("FM", ["A", "B", "C", "D", "E", "F"]),
         ]
-        for modality in modalities:
-            games = self.get_games(modality, '')
-            if games:
-                for game_data in games:
-                    if self.check_date_between_week(game_data.get('DIA')) and game_data.get('LOCAL') == local:
-                        game_data['modalidade'] = modality
-                        all_games.append(game_data)
+        for mod, series_list in modalities:
+            for s in series_list:
+                games = self.get_games(mod, s)
+                if games:
+                    for game_data in games:
+                        if self.check_date_between_week(game_data.get('DIA')) and game_data.get('LOCAL') == local:
+                            game_data['modalidade'] = f'{mod}/{s}'
+                            all_games.append(game_data)
         return all_games
 
     def is_date_between(self, date_str, initial_date_str, final_date_str):
