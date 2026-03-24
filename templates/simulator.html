@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NDU - Simulador de Jogos</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,'Segoe UI',Roboto,sans-serif;background:#f5f5f5;color:#1a1a1a;min-height:100vh}
+
+.top-bar{background:#fff;border-bottom:1px solid #e0e0e0;padding:12px 24px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:10;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.top-bar h1{font-size:1.2rem;font-weight:700;color:#1a1a1a}
+.top-bar h1 span{color:#2563eb}
+.top-bar a{color:#2563eb;text-decoration:none;font-size:.85rem;font-weight:500}
+
+.container{max-width:1200px;margin:0 auto;padding:16px}
+
+.controls{display:flex;gap:10px;margin-bottom:20px;flex-wrap:wrap;align-items:center;background:#fff;padding:14px 18px;border-radius:10px;border:1px solid #e0e0e0}
+select{background:#fff;border:1px solid #d0d0d0;color:#1a1a1a;padding:8px 14px;border-radius:6px;font-size:.9rem;cursor:pointer;font-family:inherit}
+select:focus{outline:none;border-color:#2563eb;box-shadow:0 0 0 2px rgba(37,99,235,.15)}
+
+.btn{padding:8px 18px;border-radius:6px;border:1px solid transparent;font-size:.82rem;font-weight:600;cursor:pointer;transition:all .15s;font-family:inherit}
+.btn-random{background:#f0f7ff;color:#2563eb;border-color:#bfdbfe}.btn-random:hover{background:#dbeafe}
+.btn-clear{background:#fff;color:#666;border-color:#d0d0d0}.btn-clear:hover{background:#f5f5f5}
+
+.columns{display:grid;grid-template-columns:1fr 420px;gap:16px}
+@media(max-width:960px){.columns{grid-template-columns:1fr}}
+
+.section{background:#fff;border:1px solid #e0e0e0;border-radius:10px;padding:18px;margin-bottom:14px}
+.section h2{font-size:.9rem;color:#666;margin-bottom:14px;font-weight:600;text-transform:uppercase;letter-spacing:.5px}
+
+/* Filtros de grupo */
+.filter-row{display:flex;gap:6px;margin-bottom:14px;flex-wrap:wrap}
+.filter-btn{padding:5px 14px;border-radius:20px;border:1px solid #d0d0d0;background:#fff;color:#666;cursor:pointer;font-size:.78rem;font-weight:500;transition:all .15s;font-family:inherit}
+.filter-btn:hover{border-color:#2563eb;color:#2563eb}
+.filter-btn.active{background:#2563eb;color:#fff;border-color:#2563eb}
+
+/* Cards de jogo */
+.game-card{background:#fafafa;border:1px solid #eee;border-radius:8px;padding:12px 14px;margin-bottom:8px;transition:all .15s}
+.game-card:hover{border-color:#d0d0d0}
+.game-card.sim{border-left:3px solid #2563eb;background:#f8faff}
+.game-card .meta{font-size:.72rem;color:#999;margin-bottom:8px;display:flex;gap:10px;flex-wrap:wrap}
+.game-row{display:flex;align-items:center;gap:8px;justify-content:center}
+.team-name{flex:1;font-size:.85rem;font-weight:600;text-align:right;color:#333}
+.team-name.away{text-align:left}
+.score-input{width:44px;height:36px;text-align:center;font-size:1rem;font-weight:700;background:#fff;border:2px solid #d0d0d0;border-radius:6px;color:#1a1a1a;font-family:inherit}
+.score-input:focus{outline:none;border-color:#2563eb;box-shadow:0 0 0 2px rgba(37,99,235,.15)}
+.score-input.played{background:#f0f0f0;color:#999;border-color:#e8e8e8;cursor:default}
+.vs{color:#ccc;font-weight:700;font-size:.8rem}
+.badge-played{font-size:.68rem;background:#f0f0f0;color:#999;padding:2px 8px;border-radius:10px;font-weight:500}
+.badge-sim{font-size:.68rem;background:#eff6ff;color:#2563eb;padding:2px 8px;border-radius:10px;font-weight:600}
+
+/* Tabela de ranking */
+.group-title{font-size:.82rem;font-weight:700;color:#2563eb;margin:18px 0 8px;padding-bottom:6px;border-bottom:2px solid #eff6ff}
+.group-title:first-child{margin-top:0}
+table{width:100%;border-collapse:collapse;font-size:.8rem}
+th{text-align:left;padding:6px 8px;color:#999;border-bottom:1px solid #eee;font-weight:600;font-size:.7rem;text-transform:uppercase;letter-spacing:.3px}
+th:first-child,td:first-child{text-align:center;width:28px}
+td{padding:7px 8px;border-bottom:1px solid #f5f5f5}
+tr:hover td{background:#fafafa}
+.pos{font-weight:700;color:#ccc;font-size:.8rem}
+.pos.q{color:#16a34a;font-weight:800}
+.team-cell{font-weight:600;color:#333;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:140px}
+.pts{font-weight:800;color:#2563eb;font-size:.95rem}
+
+.loading{text-align:center;padding:40px;color:#999;font-size:.9rem}
+.empty{text-align:center;padding:30px;color:#bbb;font-size:.85rem}
+</style>
+</head>
+<body>
+<div class="top-bar">
+<h1><span>NDU</span> Simulador</h1>
+<a href="/">&#8592; Voltar</a>
+</div>
+<div class="container">
+<div class="controls">
+<select id="modality" onchange="loadData()">
+<option value="">Carregando...</option>
+</select>
+<button class="btn btn-random" onclick="randomize()">Preencher Aleatoriamente</button>
+<button class="btn btn-clear" onclick="clearSim()">Limpar</button>
+</div>
+<div class="columns">
+<div id="games-col">
+<div class="section">
+<h2>Jogos</h2>
+<div class="filter-row" id="group-filters"></div>
+<div id="games-list"><div class="loading">Selecione uma modalidade</div></div>
+</div>
+</div>
+<div id="ranking-col">
+<div class="section">
+<h2>Classificacao</h2>
+<div id="ranking-tables"><div class="loading">Carregue os jogos primeiro</div></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+const API=window.location.origin;
+let allGames=[], rankings={}, activeGroup='all';
+
+async function init(){
+  try{
+    const res=await fetch(API+'/api/modalities');
+    const mods=await res.json();
+    const sel=document.getElementById('modality');
+    sel.innerHTML=mods.map(m=>`<option value="${m.value}">${m.label}</option>`).join('');
+    loadData();
+  }catch(e){
+    document.getElementById('games-list').innerHTML='<div class="empty">Erro ao carregar modalidades</div>';
+  }
+}
+
+async function loadData(){
+  const mod=document.getElementById('modality').value;
+  if(!mod)return;
+  const [m,s]=mod.split('/');
+  document.getElementById('games-list').innerHTML='<div class="loading">Carregando...</div>';
+  document.getElementById('ranking-tables').innerHTML='<div class="loading">Calculando...</div>';
+  try{
+    const res=await fetch(API+`/api/games/${m}/${s}`);
+    allGames=await res.json();
+    if(!allGames.length){
+      document.getElementById('games-list').innerHTML='<div class="empty">Nenhum jogo encontrado para esta modalidade</div>';
+      document.getElementById('ranking-tables').innerHTML='<div class="empty">Sem dados</div>';
+      return;
+    }
+  }catch(e){allGames=[]}
+  activeGroup='all';
+  renderGroupFilters();
+  renderGames();
+  calculateRanking();
+}
+
+function renderGroupFilters(){
+  const groups=[...new Set(allGames.map(g=>g.GRUPO).filter(Boolean))].sort();
+  const div=document.getElementById('group-filters');
+  div.innerHTML=`<button class="filter-btn ${activeGroup==='all'?'active':''}" onclick="setGroup('all')">Todos</button>`+
+    groups.map(g=>`<button class="filter-btn ${activeGroup===g?'active':''}" onclick="setGroup('${g}')">Grupo ${g}</button>`).join('');
+}
+
+function setGroup(g){activeGroup=g;renderGames()}
+
+function renderGames(){
+  const div=document.getElementById('games-list');
+  let games=activeGroup==='all'?allGames:allGames.filter(g=>g.GRUPO===activeGroup);
+  games=[...games].sort((a,b)=>(a.SIMULADOR===b.SIMULADOR?0:a.SIMULADOR?-1:1));
+  if(!games.length){div.innerHTML='<div class="empty">Nenhum jogo neste grupo</div>';return}
+  div.innerHTML=games.map(g=>{
+    const idx=allGames.indexOf(g);
+    const isSim=g.SIMULADOR;
+    const cls=isSim?'sim':'';
+    const gm=isSim?'':'played';
+    const ro=isSim?'':'readonly';
+    const badge=isSim?'<span class="badge-sim">Simular</span>':'<span class="badge-played">Realizado</span>';
+    const dia=g.DIA?g.DIA.substring(5).replace('-','/'):'-';
+    return `<div class="game-card ${cls}">
+      <div class="meta"><span>${dia}</span><span>${g.HORARIO||''}</span><span>${g.LOCAL||''}</span><span>Grupo ${g.GRUPO||'?'}</span>${badge}</div>
+      <div class="game-row">
+        <span class="team-name">${g.Mandante}</span>
+        <input type="number" min="0" max="99" class="score-input ${gm}" id="home-${idx}" value="${isSim?'':g.GOLS_MANDANTE}" ${ro} oninput="calculateRanking()">
+        <span class="vs">X</span>
+        <input type="number" min="0" max="99" class="score-input ${gm}" id="away-${idx}" value="${isSim?'':g.GOLS_VISITANTE}" ${ro} oninput="calculateRanking()">
+        <span class="team-name away">${g.Visitante}</span>
+      </div>
+    </div>`}).join('');
+}
+
+function calculateRanking(){
+  const groups={};
+  allGames.forEach(g=>{
+    if(!g.GRUPO)return;
+    if(!groups[g.GRUPO])groups[g.GRUPO]={};
+    [g.Mandante,g.Visitante].forEach(t=>{
+      if(!groups[g.GRUPO][t])groups[g.GRUPO][t]={Time:t,Pontos:0,Jogos:0,V:0,E:0,D:0,Gols_Pro:0,Gols_Contra:0,Saldo:0};
+    });
+  });
+  allGames.forEach((g,i)=>{
+    if(!g.GRUPO)return;
+    const gr=groups[g.GRUPO];if(!gr)return;
+    const home=gr[g.Mandante],away=gr[g.Visitante];
+    if(!home||!away)return;
+    let gh,ga;
+    if(g.SIMULADOR){
+      const hEl=document.getElementById('home-'+i);
+      const aEl=document.getElementById('away-'+i);
+      if(!hEl||!aEl)return;
+      gh=parseInt(hEl.value);ga=parseInt(aEl.value);
+      if(isNaN(gh)||isNaN(ga))return;
+    }else{
+      gh=parseInt(g.GOLS_MANDANTE);ga=parseInt(g.GOLS_VISITANTE);
+      if(isNaN(gh)||isNaN(ga))return;
+    }
+    home.Jogos++;away.Jogos++;
+    home.Gols_Pro+=gh;home.Gols_Contra+=ga;
+    away.Gols_Pro+=ga;away.Gols_Contra+=gh;
+    home.Saldo=home.Gols_Pro-home.Gols_Contra;
+    away.Saldo=away.Gols_Pro-away.Gols_Contra;
+    if(gh>ga){home.Pontos+=3;home.V++;away.D++}
+    else if(gh<ga){away.Pontos+=3;away.V++;home.D++}
+    else{home.Pontos+=1;away.Pontos+=1;home.E++;away.E++}
+  });
+  renderRanking(groups);
+}
+
+function renderRanking(groups){
+  const div=document.getElementById('ranking-tables');
+  const sorted=Object.keys(groups).sort();
+  if(!sorted.length){div.innerHTML='<div class="empty">Sem dados de ranking</div>';return}
+  div.innerHTML=sorted.map(g=>{
+    const teams=Object.values(groups[g]).sort((a,b)=>b.Pontos-a.Pontos||b.Saldo-a.Saldo||b.Gols_Pro-a.Gols_Pro);
+    return `<div class="group-title">Grupo ${g}</div>
+    <table><tr><th>#</th><th>Time</th><th>P</th><th>J</th><th>V</th><th>E</th><th>D</th><th>GP</th><th>GC</th><th>SG</th></tr>
+    ${teams.map((t,i)=>`<tr>
+      <td class="pos ${i<2?'q':''}">${i+1}</td>
+      <td class="team-cell" title="${t.Time}">${t.Time}</td>
+      <td class="pts">${t.Pontos}</td>
+      <td>${t.Jogos}</td><td>${t.V}</td><td>${t.E}</td><td>${t.D}</td>
+      <td>${t.Gols_Pro}</td><td>${t.Gols_Contra}</td><td>${t.Saldo}</td>
+    </tr>`).join('')}</table>`}).join('');
+}
+
+function randomize(){
+  allGames.forEach((g,i)=>{
+    if(!g.SIMULADOR)return;
+    const h=document.getElementById('home-'+i);
+    const a=document.getElementById('away-'+i);
+    if(h&&a){h.value=Math.floor(Math.random()*7);a.value=Math.floor(Math.random()*7)}
+  });
+  calculateRanking();
+}
+
+function clearSim(){
+  allGames.forEach((g,i)=>{
+    if(!g.SIMULADOR)return;
+    const h=document.getElementById('home-'+i);
+    const a=document.getElementById('away-'+i);
+    if(h&&a){h.value='';a.value=''}
+  });
+  calculateRanking();
+}
+
+init();
+</script>
+</body>
+</html>

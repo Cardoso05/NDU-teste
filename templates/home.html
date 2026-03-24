@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NDU - API de Torneios</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,'Segoe UI',Roboto,sans-serif;background:#f5f5f5;color:#1a1a1a;min-height:100vh;display:flex;flex-direction:column;align-items:center}
+.hero{text-align:center;padding:50px 20px 30px}
+.hero h1{font-size:2.4rem;font-weight:800;color:#1a1a1a;margin-bottom:6px}
+.hero h1 span{color:#2563eb}
+.hero p{font-size:1rem;color:#666;max-width:400px;margin:0 auto}
+.cta{display:inline-block;margin-top:20px;padding:12px 28px;background:#2563eb;color:#fff;border-radius:8px;text-decoration:none;font-weight:600;font-size:.95rem;transition:background .2s}
+.cta:hover{background:#1d4ed8}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;max-width:880px;width:100%;padding:0 20px;margin:30px 0}
+.card{background:#fff;border:1px solid #e0e0e0;border-radius:10px;padding:20px;transition:all .2s}
+.card:hover{border-color:#2563eb;box-shadow:0 4px 12px rgba(37,99,235,.08)}
+.card h3{font-size:.95rem;color:#1a1a1a;margin-bottom:4px}
+.card p{font-size:.82rem;color:#888;margin-bottom:10px}
+.card code{display:block;background:#f5f7fa;border-radius:6px;padding:8px 12px;font-size:.78rem;color:#2563eb;font-family:'SF Mono',Monaco,Consolas,monospace}
+.footer{padding:24px;text-align:center;color:#999;font-size:.8rem}
+.footer a{color:#2563eb;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+<h1><span>NDU</span> API</h1>
+<p>API de dados do torneio universitario de futsal NDU</p>
+<a href="/simulator" class="cta">Abrir Simulador de Jogos</a>
+</div>
+<div class="grid">
+<div class="card">
+<h3>Modalidades</h3>
+<p>Lista todas as modalidades e series</p>
+<code>GET /api/modalities</code>
+</div>
+<div class="card">
+<h3>Jogos</h3>
+<p>Jogos por modalidade e serie</p>
+<code>GET /api/games/FM/A</code>
+</div>
+<div class="card">
+<h3>Ranking</h3>
+<p>Classificacao dos grupos</p>
+<code>GET /api/ranking/FM/A</code>
+</div>
+<div class="card">
+<h3>Confrontos</h3>
+<p>Confrontos diretos entre equipes</p>
+<code>GET /api/games/FM/A/confrontation</code>
+</div>
+<div class="card">
+<h3>Locais</h3>
+<p>Lista todos os locais de jogos</p>
+<code>GET /api/localities</code>
+</div>
+<div class="card">
+<h3>Documentacao</h3>
+<p>Swagger UI com todos os endpoints</p>
+<code>GET /apidocs</code>
+</div>
+</div>
+<div class="footer">NDU Torneio Universitario &middot; <a href="/apidocs">Documentacao Swagger</a></div>
+</body>
+</html>
