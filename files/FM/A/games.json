@@ -9,7 +9,7 @@
         "Visitante": "Economia Mackenzie",
         "GOLS_MANDANTE": "06",
         "GOLS_VISITANTE": "01",
-        "ID": "8fc200a7-ca08-4d74-9879-c193e50dffba",
+        "ID": "7cbed1b3-328b-4d7e-90e4-5764a642f356",
         "SIMULADOR": false
     },
     {
@@ -22,7 +22,7 @@
         "Visitante": "FEA USP",
         "GOLS_MANDANTE": "05",
         "GOLS_VISITANTE": "01",
-        "ID": "d962fa25-f3ba-41d6-8bdb-bb6f927fe8b7",
+        "ID": "f48220db-1c78-4ce2-9b58-ec1e8a058e09",
         "SIMULADOR": false
     },
     {
@@ -35,7 +35,7 @@
         "Visitante": "Medicina Bragança",
         "GOLS_MANDANTE": "05",
         "GOLS_VISITANTE": "02",
-        "ID": "2efcd0f8-b826-42de-ad31-1be12555acd4",
+        "ID": "56301333-6271-4d83-9f2d-8d2cd45682fa",
         "SIMULADOR": false
     },
     {
@@ -48,7 +48,7 @@
         "Visitante": "Getúlio Vargas",
         "GOLS_MANDANTE": "05",
         "GOLS_VISITANTE": "04",
-        "ID": "37bda30a-fe31-40fb-9f42-b3b3dc0405f4",
+        "ID": "3f13c743-e1d0-4410-aff0-ac88a5a8015a",
         "SIMULADOR": false
     },
     {
@@ -61,7 +61,7 @@
         "Visitante": "INSPER",
         "GOLS_MANDANTE": "02",
         "GOLS_VISITANTE": "00",
-        "ID": "3ef77393-e6e7-46ed-acab-083d4e1cec94",
+        "ID": "d4514310-fd26-42ed-a1ed-1548cbd28298",
         "SIMULADOR": false
     },
     {
@@ -74,7 +74,7 @@
         "Visitante": "FEA USP",
         "GOLS_MANDANTE": "04",
         "GOLS_VISITANTE": "02",
-        "ID": "45f8d5d1-c55c-497d-91d3-7bf24928f156",
+        "ID": "e33e14f7-d1d7-4d4f-b8b3-8f0a3238ec7c",
         "SIMULADOR": false
     },
     {
@@ -87,7 +87,7 @@
         "Visitante": "CAAP UFABC",
         "GOLS_MANDANTE": "08",
         "GOLS_VISITANTE": "04",
-        "ID": "651933cc-dbab-4609-96d9-0a36c587aafd",
+        "ID": "83d5f164-584a-411f-b405-25b1da1bff2f",
         "SIMULADOR": false
     },
     {
@@ -100,7 +100,7 @@
         "Visitante": "EEFE USP",
         "GOLS_MANDANTE": "05",
         "GOLS_VISITANTE": "01",
-        "ID": "44a76e43-f0df-451d-91e7-92a1b18b6cc7",
+        "ID": "caf59e71-956d-44f0-bcc9-dd19c42a72d1",
         "SIMULADOR": false
     },
     {
@@ -113,7 +113,7 @@
         "Visitante": "Federal do ABC",
         "GOLS_MANDANTE": "09",
         "GOLS_VISITANTE": "01",
-        "ID": "38c95d96-10d7-49ab-85c0-9cd281fe8b0b",
+        "ID": "d83c845f-65dc-4c43-a91f-18cd86b5d555",
         "SIMULADOR": false
     },
     {
@@ -126,7 +126,7 @@
         "Visitante": "EACH USP",
         "GOLS_MANDANTE": "03",
         "GOLS_VISITANTE": "01",
-        "ID": "f3ca5856-ba77-4649-ba48-0993c3be2f4c",
+        "ID": "6b31abb7-42f8-46a2-ad1b-35197aa0e9a4",
         "SIMULADOR": false
     },
     {
@@ -139,7 +139,7 @@
         "Visitante": "FECAP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "ee6b6510-e151-4fe0-96dc-b0805b47f389",
+        "ID": "0b4f98a8-760e-4293-9b19-4bff90777ca4",
         "SIMULADOR": true
     },
     {
@@ -152,7 +152,7 @@
         "Visitante": "Economia Mackenzie",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "4391ee74-77d5-45a0-b011-a4e294c585cf",
+        "ID": "8ce9526b-c6c2-47d3-bf1e-f13a61d8ba5e",
         "SIMULADOR": true
     },
     {
@@ -165,7 +165,7 @@
         "Visitante": "Direito PUC",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "917314b2-9ef0-4c25-91aa-09a17f3be7ca",
+        "ID": "5e3a36b4-61ac-45dd-9bd0-f7cb40b5cdda",
         "SIMULADOR": true
     },
     {
@@ -178,7 +178,7 @@
         "Visitante": "Getúlio Vargas",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "854a5a27-945f-4440-992a-88fb67ff6752",
+        "ID": "272f0de8-2c81-410f-ade0-fa3fc8b20141",
         "SIMULADOR": true
     },
     {
@@ -191,7 +191,7 @@
         "Visitante": "Getúlio Vargas",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "80112172-91c1-4573-9226-41c5dd017de6",
+        "ID": "f718db0a-10da-47bd-bf9a-fb7fd17969ac",
         "SIMULADOR": true
     },
     {
@@ -204,7 +204,7 @@
         "Visitante": "Direito PUC",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "74adbc7d-0c64-40c6-9098-6b0e5ad54ee5",
+        "ID": "c303dfe7-7a8e-4346-8038-d944af3bf406",
         "SIMULADOR": true
     },
     {
@@ -217,7 +217,7 @@
         "Visitante": "Federal do ABC",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "2f591aa3-d1e9-4113-a97a-fa2255b58669",
+        "ID": "33466dea-771b-4077-ad5b-721e095ec790",
         "SIMULADOR": true
     },
     {
@@ -230,7 +230,7 @@
         "Visitante": "EACH USP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "2e0c149a-bd60-4054-81e7-87c77f12721f",
+        "ID": "91f3317d-199e-4a8e-a121-ce9b41781dd2",
         "SIMULADOR": true
     },
     {
@@ -243,7 +243,7 @@
         "Visitante": "FEA USP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "5d76b8eb-575f-4140-8c1f-3b1e4a0749db",
+        "ID": "0887758c-f7ce-4bb6-80e3-c4464aed6b17",
         "SIMULADOR": true
     },
     {
@@ -256,7 +256,7 @@
         "Visitante": "Politécnica USP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "7e7e5bce-2ad0-450c-8daa-27178530718c",
+        "ID": "feb5987f-5886-4885-bcd4-8b0320d8e9ee",
         "SIMULADOR": true
     },
     {
@@ -269,7 +269,7 @@
         "Visitante": "FECAP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "ad10b041-6728-4e8b-aa04-08e453eab1de",
+        "ID": "a879ec43-946f-4b5f-8f4a-a1576f7354aa",
         "SIMULADOR": true
     },
     {
@@ -282,7 +282,7 @@
         "Visitante": "CAAP UFABC",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "d1d098f5-9743-41c9-ae2f-cb1bdfce3a5c",
+        "ID": "18ca4001-c0f6-4166-91cf-49515dfa984d",
         "SIMULADOR": true
     },
     {
@@ -295,7 +295,7 @@
         "Visitante": "EEFE USP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "bbdb2b65-9ce3-48a4-86fd-49004c640791",
+        "ID": "4940a6ba-f391-40b7-901e-f233cb23f3fb",
         "SIMULADOR": true
     },
     {
@@ -308,7 +308,7 @@
         "Visitante": "INSPER",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "04dfc159-58b7-4024-a88e-0f82d479f372",
+        "ID": "f5412b70-27bb-4c88-8db8-9bde49e189f1",
         "SIMULADOR": true
     },
     {
@@ -321,7 +321,7 @@
         "Visitante": "Politécnica USP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "0b56e727-9357-470e-be7e-86ed27c112b6",
+        "ID": "a25af7ae-8636-4d0d-a3b0-fcc0ba1627e6",
         "SIMULADOR": true
     },
     {
@@ -334,7 +334,7 @@
         "Visitante": "CAAP UFABC",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "041c2b5e-d3cf-4ca6-bda0-c81def280425",
+        "ID": "2aed3434-b94a-4b77-8eb5-d520226b103c",
         "SIMULADOR": true
     },
     {
@@ -347,7 +347,7 @@
         "Visitante": "EEFE USP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "27ce2177-01d9-4c8c-812b-74c1cf64ccab",
+        "ID": "fca631bd-7cc1-47c9-abd8-2a324f17bc99",
         "SIMULADOR": true
     },
     {
@@ -360,7 +360,7 @@
         "Visitante": "EACH USP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "0453928f-243d-4a3f-985d-2c127027bd77",
+        "ID": "47737875-4350-4941-9150-bb7d4b26c707",
         "SIMULADOR": true
     },
     {
@@ -373,7 +373,7 @@
         "Visitante": "Medicina Bragança",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "8e44b426-12d6-4df9-9f47-4801d1a40eda",
+        "ID": "29bd97f1-664f-487f-bb02-4a7fab40c5af",
         "SIMULADOR": true
     },
     {
@@ -386,7 +386,7 @@
         "Visitante": "Politécnica USP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "8273da09-4e04-4741-8aee-19428dc3d7e4",
+        "ID": "f3955d28-2260-4724-8417-b2ffeac0547b",
         "SIMULADOR": true
     }
 ]

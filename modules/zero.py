@@ -180,8 +180,22 @@ def execute_zero_ranking(dic_modalities_page):
         # Normalizar colunas ('Grupo' -> 'GRUPO', 'SÉRIE' -> 'GRUPO')
         tb_games_valid = [_normalize_game_columns(t) for t in tb_games_valid]
 
+        # Limpar artefatos de parsing: "BB" → "B", "AA" → "A"
+        for t in tb_games_valid:
+            t['GRUPO'] = t['GRUPO'].apply(
+                lambda x: x[0] if isinstance(x, str) and len(x) > 1 and x == x[0] * len(x) else x
+            )
+
         filepath = 'files/' + modality
         filepath_group = filepath + '/group'
+
+        # Verificar se é Grupo Único
+        is_unico_mod = any('único' in str(c).lower() or 'unico' in str(c).lower() for c in tb_group.columns)
+        # Se Grupo Único, forçar todos os jogos para GRUPO = "A"
+        if is_unico_mod:
+            for t in tb_games_valid:
+                t['GRUPO'] = 'A'
+
         create_zero_ranking_group(tb_group, filepath_group)
         rankings_zero_group = main.get_rankings_zero_group(modality)
         teams = main.get_all_teams_by_rankings(rankings_zero_group)

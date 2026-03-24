@@ -6,7 +6,8 @@ from modules.utils import log_function_entry
 
 LOCATIONS = {
     'Mackenzie', 'SENAC', 'Medicina USP', 'Palestra', 'USCS', 'Idalina', 'Pinheiros', 'Poliesportivo',
-    'SEMEF', 'GETA', 'EDA', 'CESPRO', 'Mané Garrincha', 'Mauro Pinheiro', 'Baby Barione', 'CERET'
+    'SEMEF', 'GETA', 'EDA', 'CESPRO', 'Mané Garrincha', 'Mauro Pinheiro', 'Baby Barione', 'CERET',
+    'Lavínia', 'Sesi Cubatão', 'Mauá', 'Cidade Dutra'
 }
 
 def format_tb_group(tb_group_array):
@@ -60,7 +61,13 @@ def correct_local(local):
         'Medicin a USP': 'Medicina USP',
         'CDC Ip asure': 'CDC Ipasure',
         'APC EF': 'APCEF',
-        'Poliesp ortivo': 'Poliesportivo'
+        'Poliesp ortivo': 'Poliesportivo',
+        'Laví nia': 'Lavínia',
+        'Lavínia': 'Lavínia',
+        'Sesi Cu batão': 'Sesi Cubatão',
+        'Ma uá': 'Mauá',
+        'Cidade  Dutra': 'Cidade Dutra',
+        'Cidade Dutra': 'Cidade Dutra',
     }
     return local if local in LOCATIONS else correction_local.get(local, local)
 

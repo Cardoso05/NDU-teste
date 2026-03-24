@@ -9,7 +9,7 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "45d8bcf0-13ce-4665-8c62-d112baed70b1"
+        "ID": "f29b8d8a-cf51-4ef2-8016-39f23137bc9e"
     },
     {
         "Time": "Medicina São Caetano",
@@ -21,7 +21,7 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "ba40730d-c904-4cb6-bde7-87d859780e87"
+        "ID": "64f3855d-3626-4b3f-b4ee-b811c4161f22"
     },
     {
         "Time": "FATEC São Paulo",
@@ -33,7 +33,7 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "ca1d1357-385c-42a7-9038-78d26152409d"
+        "ID": "5af4fcc1-3d85-41f3-9004-a64abe28fa29"
     },
     {
         "Time": "Arquitetura Mackenzie",
@@ -45,7 +45,7 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "449aa4ab-a177-48c6-adfd-16e6d1cb9a2c"
+        "ID": "2c018e5d-9989-4bd5-b9d5-f334c58a9ad9"
     },
     {
         "Time": "RI PUC",
@@ -57,7 +57,7 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "c6f71c17-6ed9-46d8-b6c6-fcec8bab7965"
+        "ID": "a5585711-705b-4ce8-9425-11cbadfb1e4f"
     },
     {
         "Time": "CEM UNICAMP",
@@ -69,6 +69,6 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "9713be39-bd63-4ac9-a2ff-e11082336e52"
+        "ID": "4b6ef2a3-dbca-4fbe-8f15-aeabfa267e9e"
     }
 ]

@@ -9,7 +9,7 @@
         "Visitante": "FFLCH USP",
         "GOLS_MANDANTE": "01",
         "GOLS_VISITANTE": "01",
-        "ID": "edce0642-bfda-43f2-b3d4-031b722f0092",
+        "ID": "a67f7b95-f281-4660-812c-2197c3fd3657",
         "SIMULADOR": false
     },
     {
@@ -22,20 +22,20 @@
         "Visitante": "CAAP UFABC",
         "GOLS_MANDANTE": "00",
         "GOLS_VISITANTE": "05",
-        "ID": "a1275d3d-5215-4627-8d54-bd98d0e23dae",
+        "ID": "d7b5c670-6ab0-4532-8ba8-65dae3985419",
         "SIMULADOR": false
     },
     {
         "DIA": "2026-02-22",
         "HORARIO": "15 h",
-        "LOCAL": "Laví nia",
+        "LOCAL": "Lavínia",
         "GRUPO": "B",
         "Mandante": "Arquitetura Mackenzie",
         "PLACAR": "01X01",
         "Visitante": "Medicina Guarulhos",
         "GOLS_MANDANTE": "01",
         "GOLS_VISITANTE": "01",
-        "ID": "5049dc8f-f3ac-44c5-bbdc-d833fdb077b7",
+        "ID": "8fec1063-5111-487f-8376-eaa3509e7631",
         "SIMULADOR": false
     },
     {
@@ -48,7 +48,7 @@
         "Visitante": "Medicina UNICID",
         "GOLS_MANDANTE": "01",
         "GOLS_VISITANTE": "00",
-        "ID": "add852a0-7d59-471e-a178-528646da30ea",
+        "ID": "64cf95e1-163d-4643-9d4b-d7ce2002601b",
         "SIMULADOR": false
     },
     {
@@ -61,7 +61,7 @@
         "Visitante": "UNIFESP Osasco",
         "GOLS_MANDANTE": "02",
         "GOLS_VISITANTE": "01",
-        "ID": "73663534-3249-48fd-8a76-d299ad8fe0d0",
+        "ID": "7b5c1077-489e-4122-95d8-e17ec70f627e",
         "SIMULADOR": false
     },
     {
@@ -74,33 +74,33 @@
         "Visitante": "Direito FMU",
         "GOLS_MANDANTE": "03",
         "GOLS_VISITANTE": "02",
-        "ID": "fdc12521-5f90-43a0-9fed-f8e75e805067",
+        "ID": "179c4d90-dfeb-463e-a24b-179e67c7e7c7",
         "SIMULADOR": false
     },
     {
         "DIA": "2026-02-28",
         "HORARIO": "20 h",
-        "LOCAL": "Cidade  Dutra",
+        "LOCAL": "Cidade Dutra",
         "GRUPO": "A",
         "Mandante": "Direito USP",
         "PLACAR": "01X02",
         "Visitante": "UNIP",
         "GOLS_MANDANTE": "01",
         "GOLS_VISITANTE": "02",
-        "ID": "58a06b73-ab53-4765-85dc-3309abf05779",
+        "ID": "4e2590ac-118a-427e-a6ad-04637e8d8f97",
         "SIMULADOR": false
     },
     {
         "DIA": null,
         "HORARIO": "13 h",
-        "LOCAL": "Laví nia",
+        "LOCAL": "Lavínia",
         "GRUPO": "B",
         "Mandante": "Medicina Einstein",
         "PLACAR": "02X03",
         "Visitante": "Engenharia São Judas",
         "GOLS_MANDANTE": "02",
         "GOLS_VISITANTE": "03",
-        "ID": "e766294d-a788-477a-a8d7-0a990bc9787d",
+        "ID": "baa69421-1e5d-4bdc-80fc-15b72166d47d",
         "SIMULADOR": true
     },
     {
@@ -113,7 +113,7 @@
         "Visitante": "FEA PUC",
         "GOLS_MANDANTE": "01",
         "GOLS_VISITANTE": "08",
-        "ID": "686d5006-6f11-49a2-8ead-ab8bce8b1000",
+        "ID": "84dba889-9754-4255-aa76-feccd70b8392",
         "SIMULADOR": false
     },
     {
@@ -126,33 +126,33 @@
         "Visitante": "Direito São Judas",
         "GOLS_MANDANTE": "00",
         "GOLS_VISITANTE": "00",
-        "ID": "8c11db98-3ccc-4037-8e78-abdd7382e92e",
+        "ID": "f58a6cf7-aa5b-491d-a925-bd8b789fb243",
         "SIMULADOR": false
     },
     {
         "DIA": "2026-03-06",
         "HORARIO": "20 h",
-        "LOCAL": "Sesi Cu batão",
+        "LOCAL": "Sesi Cubatão",
         "GRUPO": "A",
         "Mandante": "Medicina Santos",
         "PLACAR": "02X00",
         "Visitante": "Medicina UNIMES",
         "GOLS_MANDANTE": "02",
         "GOLS_VISITANTE": "00",
-        "ID": "11a4dec8-add8-4c75-8c99-e8c763eaa2df",
+        "ID": "5ce5c8dc-0633-4338-a356-9eac094ef713",
         "SIMULADOR": false
     },
     {
         "DIA": "2026-03-07",
         "HORARIO": "11 h",
-        "LOCAL": "Ma uá",
+        "LOCAL": "Mauá",
         "GRUPO": "A",
         "Mandante": "Mauá",
         "PLACAR": "07X00",
         "Visitante": "FFLCH USP",
         "GOLS_MANDANTE": "07",
         "GOLS_VISITANTE": "00",
-        "ID": "89f21f37-00be-4710-99d0-3d508b0c09f9",
+        "ID": "25c89f47-1a41-405c-8ffa-0404142721b0",
         "SIMULADOR": false
     },
     {
@@ -165,7 +165,7 @@
         "Visitante": "FEA PUC",
         "GOLS_MANDANTE": "01",
         "GOLS_VISITANTE": "03",
-        "ID": "459a9540-c28d-4776-a56e-cee885f76f55",
+        "ID": "fafb479e-600a-46c0-a24d-c7b6db1277e4",
         "SIMULADOR": false
     },
     {
@@ -178,20 +178,20 @@
         "Visitante": "Medicina Paulista",
         "GOLS_MANDANTE": "03",
         "GOLS_VISITANTE": "00",
-        "ID": "549312d0-a574-43a5-a4d6-e70250e7a734",
+        "ID": "7df7bc08-0185-4d3c-8183-c521124cdc4b",
         "SIMULADOR": false
     },
     {
         "DIA": "2026-03-08",
         "HORARIO": "14 h",
-        "LOCAL": "Cidade  Dutra",
+        "LOCAL": "Cidade Dutra",
         "GRUPO": "A",
         "Mandante": "Medicina Santa Marcelina",
         "PLACAR": "00X06",
         "Visitante": "Direito São Judas",
         "GOLS_MANDANTE": "00",
         "GOLS_VISITANTE": "06",
-        "ID": "173d2c07-43ae-49cc-8fee-840acc0ef8ba",
+        "ID": "6f2e9373-5dd9-4104-ba3d-9966e62cd926",
         "SIMULADOR": false
     },
     {
@@ -204,7 +204,7 @@
         "Visitante": "Medicina Guarulhos",
         "GOLS_MANDANTE": "00",
         "GOLS_VISITANTE": "01",
-        "ID": "2506a1fe-41f9-4465-9680-d0701cef1758",
+        "ID": "4157fe12-46e5-4617-aeab-503be8e6ac34",
         "SIMULADOR": false
     },
     {
@@ -217,33 +217,33 @@
         "Visitante": "Medicina UNICID",
         "GOLS_MANDANTE": "03",
         "GOLS_VISITANTE": "01",
-        "ID": "3b80f1f9-11eb-472b-ad15-56e91172b1a8",
+        "ID": "d1019a12-70da-4226-8505-9895258e407e",
         "SIMULADOR": false
     },
     {
         "DIA": "2026-03-14",
         "HORARIO": "16 h",
-        "LOCAL": "Cidade  Dutra",
+        "LOCAL": "Cidade Dutra",
         "GRUPO": "B",
         "Mandante": "Arquitetura Mackenzie",
         "PLACAR": "01X03",
         "Visitante": "Engenharia São Judas",
         "GOLS_MANDANTE": "01",
         "GOLS_VISITANTE": "03",
-        "ID": "b2315cd7-a7f6-4bb3-a52f-1d3a7d4b6629",
+        "ID": "683d3648-bca0-49b6-88a8-69d1925f9dc2",
         "SIMULADOR": false
     },
     {
         "DIA": "2026-03-15",
         "HORARIO": "16 h",
-        "LOCAL": "Cidade  Dutra",
+        "LOCAL": "Cidade Dutra",
         "GRUPO": "B",
         "Mandante": "Comunicação São Judas",
         "PLACAR": "00X01",
         "Visitante": "UNIFESP Osasco",
         "GOLS_MANDANTE": "00",
         "GOLS_VISITANTE": "01",
-        "ID": "ca63d8f5-9131-42d8-b57d-bf94a0767503",
+        "ID": "398da941-09a3-4b24-8f64-31e50d1d3739",
         "SIMULADOR": false
     },
     {
@@ -256,7 +256,7 @@
         "Visitante": "Medicina Einstein",
         "GOLS_MANDANTE": "01",
         "GOLS_VISITANTE": "02",
-        "ID": "1c529854-62e8-4d35-a840-b44f6d195efb",
+        "ID": "0788bb45-2196-4760-ae25-427d9bb355a6",
         "SIMULADOR": false
     },
     {
@@ -269,7 +269,7 @@
         "Visitante": "Direito São Judas",
         "GOLS_MANDANTE": "00",
         "GOLS_VISITANTE": "02",
-        "ID": "fa5cb3c5-b115-4ec7-b658-cb54b27fe255",
+        "ID": "a2c9273a-7170-4fe1-b6b1-30cededcb510",
         "SIMULADOR": false
     },
     {
@@ -282,20 +282,20 @@
         "Visitante": "UNIP",
         "GOLS_MANDANTE": "00",
         "GOLS_VISITANTE": "01",
-        "ID": "948c39f3-44c8-4b9a-b111-4058afb56bde",
+        "ID": "517d4bdb-02bb-47d4-9674-d873fa15378b",
         "SIMULADOR": false
     },
     {
         "DIA": "2026-03-22",
         "HORARIO": "14 h",
-        "LOCAL": "Cidade  Dutra",
+        "LOCAL": "Cidade Dutra",
         "GRUPO": "A",
         "Mandante": "Direito USP",
         "PLACAR": "02X01",
         "Visitante": "FFLCH USP",
         "GOLS_MANDANTE": "02",
         "GOLS_VISITANTE": "01",
-        "ID": "b134aed3-49fa-45e2-8554-39f3241f7ed3",
+        "ID": "b7aefc03-eaff-4ec8-9a12-6acf8b220813",
         "SIMULADOR": false
     },
     {
@@ -308,20 +308,20 @@
         "Visitante": "UNIFESP Osasco",
         "GOLS_MANDANTE": "01",
         "GOLS_VISITANTE": "05",
-        "ID": "0fb1d786-8422-48b9-9911-af3856fb3aa7",
+        "ID": "70f1863b-fcc0-4416-9681-31ede47f4d36",
         "SIMULADOR": false
     },
     {
         "DIA": "2026-03-28",
         "HORARIO": "14 h",
-        "LOCAL": "Cidade  Dutra",
+        "LOCAL": "Cidade Dutra",
         "GRUPO": "B",
         "Mandante": "Cásper Líbero",
         "PLACAR": "X",
         "Visitante": "EACH USP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "4741b176-8613-43f3-b3e6-789e4b0532f1",
+        "ID": "ef141250-7679-4ed8-ad14-50090cb23708",
         "SIMULADOR": true
     },
     {
@@ -334,7 +334,7 @@
         "Visitante": "Medicina UNIMES",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "bc63ddb9-0261-4aae-8655-9a19172c5ac9",
+        "ID": "293c43a7-7df7-43dd-8be7-4c2c3f2e0bce",
         "SIMULADOR": true
     },
     {
@@ -347,20 +347,20 @@
         "Visitante": "Engenharia São Judas",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "68be4bf0-95b6-40c3-998e-d89cf86ad6b0",
+        "ID": "4eb308c4-0e7e-4dea-b226-a02c9ac0e203",
         "SIMULADOR": true
     },
     {
         "DIA": "2026-03-29",
         "HORARIO": "14 h",
-        "LOCAL": "Cidade  Dutra",
+        "LOCAL": "Cidade Dutra",
         "GRUPO": "B",
         "Mandante": "Comunicação São Judas",
         "PLACAR": "X",
         "Visitante": "Medicina UNICID",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "1e6c648c-3943-43cf-ac72-7bc8a9131be8",
+        "ID": "f29b674e-47e7-42fc-abbb-9c6834f54281",
         "SIMULADOR": true
     },
     {
@@ -373,7 +373,7 @@
         "Visitante": "Medicina Einstein",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "b26438fa-ae27-4a8e-9200-c32e3d5547ad",
+        "ID": "8fb7e42a-a29e-4099-b1aa-2bd9b3ac86ed",
         "SIMULADOR": true
     },
     {
@@ -386,7 +386,7 @@
         "Visitante": "FEA PUC",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "ca0d8379-3a13-42e5-a830-73e086c5cf04",
+        "ID": "2a1098e1-30b4-4cdc-b278-73cec9ccb20c",
         "SIMULADOR": true
     },
     {
@@ -399,7 +399,7 @@
         "Visitante": "Medicina Santa Marcelina",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "6b2ea638-b512-439f-9e9f-80fa508b0e8b",
+        "ID": "dfa6625d-ab36-4375-b738-214c9661c399",
         "SIMULADOR": true
     },
     {
@@ -412,7 +412,7 @@
         "Visitante": "CAAP UFABC",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "e744687b-99df-45b8-8942-2a40c9367501",
+        "ID": "2560aa5c-aea9-4c48-90ac-5a38cba0245d",
         "SIMULADOR": true
     },
     {
@@ -425,7 +425,7 @@
         "Visitante": "Direito São Judas",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "1cea25e8-3f1f-480c-91a5-97dc687bcd85",
+        "ID": "f1719414-c217-4583-b29c-f8dbf6ee43e7",
         "SIMULADOR": true
     },
     {
@@ -438,7 +438,7 @@
         "Visitante": "UNIP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "7033c82d-18b8-49cb-8832-5d84ba5d7308",
+        "ID": "7fe29885-be12-46a3-83da-bf8682e43e4d",
         "SIMULADOR": true
     },
     {
@@ -451,7 +451,7 @@
         "Visitante": "FEA PUC",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "9622feae-857a-4159-89fa-55ed0bb1b7ad",
+        "ID": "b73d0165-9dca-4f3b-ac1c-03e78b8b2395",
         "SIMULADOR": true
     },
     {
@@ -464,7 +464,7 @@
         "Visitante": "Medicina Santos",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "69a0af9a-3d24-4fc5-bb8c-164845f53be8",
+        "ID": "2d72b4b2-0b0f-44eb-99a6-f28afde1b36b",
         "SIMULADOR": true
     },
     {
@@ -477,7 +477,7 @@
         "Visitante": "Mauá",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "766cf1a5-0ab1-47c3-8e63-97eb9ac08e51",
+        "ID": "42eaa071-b3a2-473d-a04a-d8212d10816a",
         "SIMULADOR": true
     },
     {
@@ -490,7 +490,7 @@
         "Visitante": "CAAP UFABC",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "78e1bd55-42a3-4b28-9725-b6d9a9ae426f",
+        "ID": "fb5e5289-0439-42ad-b784-1b86c2a62e01",
         "SIMULADOR": true
     },
     {
@@ -503,7 +503,7 @@
         "Visitante": "Direito São Judas",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "37ac942e-06c1-41fe-beb3-b114e0cfbbcd",
+        "ID": "47b9ee4b-f1b7-435a-ab22-57329ba7172a",
         "SIMULADOR": true
     },
     {
@@ -516,7 +516,7 @@
         "Visitante": "UNIP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "d771b36a-b46e-4100-ba12-70cce71954b2",
+        "ID": "46bfb3a6-0e91-4e27-bcb3-5ecb35de484d",
         "SIMULADOR": true
     },
     {
@@ -529,7 +529,7 @@
         "Visitante": "Medicina Paulista",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "eb4dcf27-5f4a-4719-b0dd-7185e6d038cf",
+        "ID": "fb04c781-7dc1-44f5-a49a-3fb41b52dcff",
         "SIMULADOR": true
     },
     {
@@ -542,7 +542,7 @@
         "Visitante": "Direito USP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "b4bd8d57-b1f9-4bf9-a1a7-09c835e4012a",
+        "ID": "45b79576-8f8c-41b8-bc82-397b22233f67",
         "SIMULADOR": true
     },
     {
@@ -555,7 +555,7 @@
         "Visitante": "Medicina Santos",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "7dd57639-4ab6-44b1-9354-3749c66047ab",
+        "ID": "2e6a93bf-7190-4753-8f76-b5c4a0da4e4e",
         "SIMULADOR": true
     },
     {
@@ -568,7 +568,7 @@
         "Visitante": "Mauá",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "307840c7-0c46-42df-9853-047916791a23",
+        "ID": "7257cbb6-e66d-4160-9c6a-d607cdb8cdca",
         "SIMULADOR": true
     },
     {
@@ -581,7 +581,7 @@
         "Visitante": "CAAP UFABC",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "d0b854ff-c6f4-48a2-9a5e-c1b925f43412",
+        "ID": "f7bd6d44-a775-4f17-89c8-ac511852be8d",
         "SIMULADOR": true
     },
     {
@@ -594,7 +594,7 @@
         "Visitante": "Medicina Santa Marcelina",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "30a03e82-6e2d-4456-abea-bd9679b0ecd0",
+        "ID": "3f7444ec-72d9-449a-bd9c-bdb3c7cece79",
         "SIMULADOR": true
     },
     {
@@ -607,7 +607,7 @@
         "Visitante": "Mauá",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "d7e246d5-888a-463a-908b-885e97959de6",
+        "ID": "c460918e-3314-435f-a902-99fd6ece5b78",
         "SIMULADOR": true
     },
     {
@@ -620,7 +620,7 @@
         "Visitante": "Direito São Judas",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "93f4a6c2-55a1-4ac2-a3a5-ccc65184ae0f",
+        "ID": "f821bcdd-8396-4f83-84aa-f817a0acd2af",
         "SIMULADOR": true
     }
 ]

@@ -9,7 +9,7 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "857ce180-2b78-4e0c-a46f-355c132b7271"
+        "ID": "d8e6dd2d-2d54-4763-a469-b57beab7be63"
     },
     {
         "Time": "FEA São Judas",
@@ -21,7 +21,7 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "35af9f40-0607-427e-abc8-eac47c1dc8fa"
+        "ID": "b0c2a518-9fd0-4ff5-b3cd-ff2cab637b14"
     },
     {
         "Time": "Engenharia São Judas",
@@ -33,7 +33,7 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "ec675b13-09d4-4c28-8fe7-eaec52ba1375"
+        "ID": "152a5135-9dd0-4a53-a041-ab7085fb408c"
     },
     {
         "Time": "Medicina Santa Casa",
@@ -45,7 +45,7 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "12085da6-09ee-4abc-9975-f6e9a12a502d"
+        "ID": "4ae59329-cddf-49b8-bc54-507f88cf8b49"
     },
     {
         "Time": "Medicina ABC",
@@ -57,7 +57,7 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "88de0673-8063-4069-9863-792ef8c64806"
+        "ID": "70ad2066-2149-416c-a617-933a43acd10a"
     },
     {
         "Time": "ESPM",
@@ -69,6 +69,6 @@
         "Gols_Pro": 0,
         "Gols_Contra": 0,
         "Saldo": 0,
-        "ID": "a2e65011-a8ea-42d5-92ac-bfb85ed102b9"
+        "ID": "30e37d76-c248-4c89-828f-51394251ecfa"
     }
 ]

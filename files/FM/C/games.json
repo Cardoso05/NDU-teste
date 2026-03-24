@@ -9,7 +9,7 @@
         "Visitante": "IBMEC",
         "GOLS_MANDANTE": "05",
         "GOLS_VISITANTE": "04",
-        "ID": "ef4e97e3-5af2-4124-a6e6-1768c0ed6d73",
+        "ID": "a741dcd2-8857-421f-a996-c7fc6ce4331f",
         "SIMULADOR": false
     },
     {
@@ -22,7 +22,7 @@
         "Visitante": "Medicina São Bernardo",
         "GOLS_MANDANTE": "03",
         "GOLS_VISITANTE": "04",
-        "ID": "53055453-a2a1-474a-a57b-64452b1d3408",
+        "ID": "719f79d1-0588-450a-afdb-a624ecbe062e",
         "SIMULADOR": false
     },
     {
@@ -35,7 +35,7 @@
         "Visitante": "IME USP",
         "GOLS_MANDANTE": "05",
         "GOLS_VISITANTE": "02",
-        "ID": "9e13bd97-33ae-4ae2-b7e6-e0f062e7dc6f",
+        "ID": "2736c65a-45eb-4916-a1d6-2e469e129827",
         "SIMULADOR": false
     },
     {
@@ -48,7 +48,7 @@
         "Visitante": "Medicina Paulista",
         "GOLS_MANDANTE": "07",
         "GOLS_VISITANTE": "01",
-        "ID": "b038a289-e91f-48ad-a080-27b097ac1785",
+        "ID": "4542e485-3ea9-4ca2-b5f6-1a9a1c827548",
         "SIMULADOR": false
     },
     {
@@ -61,7 +61,7 @@
         "Visitante": "Cásper Líbero",
         "GOLS_MANDANTE": "03",
         "GOLS_VISITANTE": "03",
-        "ID": "9ff43246-19a4-41b7-a92b-0702ef961718",
+        "ID": "587e664c-b810-49b3-bf1b-75acb288f9d6",
         "SIMULADOR": false
     },
     {
@@ -74,7 +74,7 @@
         "Visitante": "Medicina USP",
         "GOLS_MANDANTE": "01",
         "GOLS_VISITANTE": "03",
-        "ID": "0853614b-daba-4439-aa4e-764694c2e5ca",
+        "ID": "3ccc163a-85e3-448f-9623-2951a0b7d776",
         "SIMULADOR": false
     },
     {
@@ -87,7 +87,7 @@
         "Visitante": "UNIFESP Osasco",
         "GOLS_MANDANTE": "02",
         "GOLS_VISITANTE": "01",
-        "ID": "eb7427e7-8fc0-427c-b292-ce2b02d35070",
+        "ID": "63490c67-0689-4dde-8012-35ba2bfc4e07",
         "SIMULADOR": false
     },
     {
@@ -100,7 +100,7 @@
         "Visitante": "Medicina São Camilo",
         "GOLS_MANDANTE": "02",
         "GOLS_VISITANTE": "04",
-        "ID": "7961dcbd-a480-484e-b7d6-edd38e8c2920",
+        "ID": "3c17a0c0-8bf2-4d7e-81e5-be9c61dca5db",
         "SIMULADOR": false
     },
     {
@@ -113,7 +113,7 @@
         "Visitante": "Medicina Taubaté",
         "GOLS_MANDANTE": "01",
         "GOLS_VISITANTE": "01",
-        "ID": "5266e605-d34c-4c88-baa0-c1264edb5132",
+        "ID": "56b74b41-cd85-4a19-a40b-63c040d6a5ea",
         "SIMULADOR": false
     },
     {
@@ -126,7 +126,7 @@
         "Visitante": "Medicina USP",
         "GOLS_MANDANTE": "01",
         "GOLS_VISITANTE": "01",
-        "ID": "efbf59e3-075c-4d9a-95d3-a5b5cdb0c4ce",
+        "ID": "a4b1b6e0-f164-4de6-99ff-957a4c9a7c55",
         "SIMULADOR": false
     },
     {
@@ -139,7 +139,7 @@
         "Visitante": "FFLCH USP",
         "GOLS_MANDANTE": "05",
         "GOLS_VISITANTE": "03",
-        "ID": "fab923b1-31e3-48c6-8afc-837908e012c0",
+        "ID": "27488407-b570-4d2a-8a05-2f9800d20d40",
         "SIMULADOR": false
     },
     {
@@ -152,7 +152,7 @@
         "Visitante": "Engenharia Mackenzie",
         "GOLS_MANDANTE": "00",
         "GOLS_VISITANTE": "06",
-        "ID": "d69296d2-db4f-49a1-ae99-b284987b1620",
+        "ID": "c2d11d7a-7330-4758-b732-37781c5be091",
         "SIMULADOR": false
     },
     {
@@ -165,7 +165,7 @@
         "Visitante": "FEA PUC",
         "GOLS_MANDANTE": "02",
         "GOLS_VISITANTE": "04",
-        "ID": "38752068-fad8-40ea-9a2a-bf76235105df",
+        "ID": "bc499ec1-97d2-47ae-b215-1fd8a6312a3f",
         "SIMULADOR": false
     },
     {
@@ -178,7 +178,7 @@
         "Visitante": "Cásper Líbero",
         "GOLS_MANDANTE": "04",
         "GOLS_VISITANTE": "01",
-        "ID": "b8c93e1d-f970-4ce2-b6ea-7acbeba9e7a9",
+        "ID": "64f9d14d-ae0d-46ea-8825-e9341a7cc638",
         "SIMULADOR": false
     },
     {
@@ -191,7 +191,7 @@
         "Visitante": "Engenharia Mackenzie",
         "GOLS_MANDANTE": "01",
         "GOLS_VISITANTE": "02",
-        "ID": "d1fb1a67-3189-41b5-a270-7c1097dbd274",
+        "ID": "7f34467c-059b-471c-b40b-dbe121fe7694",
         "SIMULADOR": false
     },
     {
@@ -204,7 +204,7 @@
         "Visitante": "Medicina Paulista",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "bf328bbf-d3c6-4155-bd9f-a4fa67d28421",
+        "ID": "7309b7da-bb25-4177-9b41-f3e891e7b5ef",
         "SIMULADOR": true
     },
     {
@@ -217,7 +217,7 @@
         "Visitante": "Medicina São Camilo",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "0cffd99c-c9a6-449e-b67c-9f8ff97ce20b",
+        "ID": "628e66bb-3faa-434f-b9ab-f7a831122478",
         "SIMULADOR": true
     },
     {
@@ -230,7 +230,7 @@
         "Visitante": "UNIFESP Osasco",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "643a1368-fff9-456e-9db4-5037fd4913c1",
+        "ID": "5eed3bdb-1e1a-41b2-8e8f-aed963d2d636",
         "SIMULADOR": true
     },
     {
@@ -243,7 +243,7 @@
         "Visitante": "Medicina São Bernardo",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "70d4630d-7c82-48b1-9eb6-8db85672e470",
+        "ID": "1918e4b6-b0df-4218-855e-1a5c159446f5",
         "SIMULADOR": true
     },
     {
@@ -256,7 +256,7 @@
         "Visitante": "IBMEC",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "d934839d-a549-4ceb-950a-d41b02edfff9",
+        "ID": "31e5e6a0-e9a2-40bb-9e43-e85f96e42fbd",
         "SIMULADOR": true
     },
     {
@@ -269,7 +269,7 @@
         "Visitante": "UNIFESP Osasco",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "d7d6344d-cff6-42fa-8ff6-789139505eb6",
+        "ID": "4575c759-a9d3-4d61-8de6-aac12eafe9f3",
         "SIMULADOR": true
     },
     {
@@ -282,7 +282,7 @@
         "Visitante": "Medicina São Camilo",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "24c09786-8b3f-41c0-9fa1-16739d5165fd",
+        "ID": "f42568f4-3004-4e9f-af05-f8c53367779f",
         "SIMULADOR": true
     },
     {
@@ -295,7 +295,7 @@
         "Visitante": "FFLCH USP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "7c993146-7ca3-4b79-9b93-ff5b8e3d945b",
+        "ID": "788c3fcb-8532-43a2-aa0d-3c56c068fcb1",
         "SIMULADOR": true
     },
     {
@@ -308,7 +308,7 @@
         "Visitante": "Medicina São Bernardo",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "11eebe08-3dff-451e-9bf7-f8d7d47a52da",
+        "ID": "f94391da-b08e-4835-af8f-1cdcabb59b98",
         "SIMULADOR": true
     },
     {
@@ -321,7 +321,7 @@
         "Visitante": "IME USP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "bb4b72fa-bbe3-4542-9348-99f8d50f62f8",
+        "ID": "9f10ea2d-7e3b-4fee-9268-a51b54468496",
         "SIMULADOR": true
     },
     {
@@ -334,7 +334,7 @@
         "Visitante": "Medicina Paulista",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "7ae73e15-a837-46df-9153-031a6c0619f8",
+        "ID": "3b8fa9f4-0178-4437-bce1-8ccf03b79dc9",
         "SIMULADOR": true
     },
     {
@@ -347,7 +347,7 @@
         "Visitante": "FEA PUC",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "0587fc1c-d732-49c4-b12f-722e41943169",
+        "ID": "085e2671-b8b2-4dce-a601-bcb0652b0848",
         "SIMULADOR": true
     },
     {
@@ -360,7 +360,7 @@
         "Visitante": "Engenharia Mackenzie",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "19dbc8bf-177b-4b61-b0ae-f154116a2739",
+        "ID": "e8b4eb3a-eecd-4006-893c-117b441d0fbf",
         "SIMULADOR": true
     },
     {
@@ -373,7 +373,7 @@
         "Visitante": "Medicina Taubaté",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "a8c907e2-ff13-4fb7-a74d-1e76749a0940",
+        "ID": "fde998b3-56de-4884-ad0b-866a223506a1",
         "SIMULADOR": true
     },
     {
@@ -386,7 +386,7 @@
         "Visitante": "IME USP",
         "GOLS_MANDANTE": "",
         "GOLS_VISITANTE": "",
-        "ID": "214d6ff4-3ad0-4714-b01b-4e646da4d85f",
+        "ID": "37fca573-87d3-4af2-a388-93dbecd37b8b",
         "SIMULADOR": true
     }
 ]
